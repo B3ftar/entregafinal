@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Juegos</title>
+    <link rel="stylesheet" href="../scss/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Juegos</h1>
+    </header>
+    <main>
+        <div id="cart">
+            <h2>Carrito de Compras</h2>
+            <ul id="cart-items"></ul>
+            <p>Total: $<span id="total-amount">0.00</span></p>
+            <button id="buy-button">Comprar</button>
+        </div>
+        <input type="text" id="searchInput" placeholder="Buscar por título...">
+        <select id="categoryFilter">
+            <option value="">Mostrar Todos</option>
+            <option value="RPG">RPG</option>
+            <option value="Action">Acción</option>
+            <option value="FPS">FPS</option>
+            <option value="Indie">Indie</option>
+            <option value="Stealth">Sigilo</option>
+            <option value="Survival">Supervivencia</option>
+            <option value="Simulation">Simulación</option>
+        </select>
+        <div id="game-list" class="flex-container"></div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tu Página de Juegos. Todos los derechos reservados.</p>
+    </footer>
+    <script src="../js/carrito.js"></script>
+</body>
+</html>

@@ -1,0 +1,445 @@
+@charset "UTF-8";
+/* Estilos generales para el header */
+body {
+  margin: 0; /* Sin margen en el cuerpo */
+  padding: 0;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #860000; /* Color de fondo del header */
+  color: white; /* Color de texto del header */
+}
+
+/* Estilos para el logo */
+.logo img {
+  height: 80px; /* Altura del logo */
+}
+
+/* Estilos para la navegación */
+.nav {
+  flex-grow: 1; /* La navegación ocupa todo el espacio disponible */
+}
+
+.nav-list {
+  list-style: none; /* Quita los estilos de lista */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+.nav-item {
+  margin: 0 10px; /* Espaciado entre los elementos de navegación */
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white; /* Color del texto del enlace */
+  padding: 5px 10px;
+  border-radius: 5px; /* Borde redondeado para los enlaces */
+}
+
+.nav-item a:hover {
+  background-color: #555; /* Color de fondo al pasar el cursor sobre los enlaces */
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .nav-list {
+    flex-direction: column; /* Cambia la dirección de la lista a columna */
+    align-items: center; /* Centra los elementos verticalmente */
+  }
+  .nav-item {
+    margin: 10px 0; /* Ajusta el espaciado entre elementos en dispositivos móviles */
+  }
+}
+.banner {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  height: 450px; /* Altura del banner */
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.active {
+  opacity: 1;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 2;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  max-width: 80%;
+  width: auto;
+}
+
+#container {
+  text-align: center;
+}
+
+/* Estilo para el botón */
+#toggleIconsBtn {
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilo para el contenedor de iconos */
+#iconContainer {
+  display: none; /* Inicialmente oculto */
+  margin-top: 20px;
+}
+
+/* Estilo para cada icono */
+.icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Estilo para las imágenes de los iconos */
+.icon img {
+  width: 100px; /* Tamaño más grande para los iconos */
+  height: 100px; /* Tamaño más grande para los iconos */
+  border-radius: 50%; /* Hacer que las imágenes sean circulares */
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease; /* Transición suave para el borde al pasar el ratón */
+}
+
+/* Efecto de borde al pasar el ratón sobre los iconos */
+.icon img:hover {
+  border-color: #007bff; /* Color del borde al pasar el ratón */
+}
+
+/* Para mostrar los iconos cuando se hace clic en el botón */
+#iconContainer.show {
+  display: block;
+}
+
+/* Estilos CSS para la sección de novedades */
+/* Estilos CSS para la sección de novedades */
+.novedades {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.novedades h2 {
+  font-size: 2.5rem;
+  color: #007bff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.novedades .cartas-container {
+  display: flex;
+  flex-wrap: wrap; /* Permitir que las cartas se envuelvan en pantallas pequeñas */
+  justify-content: center; /* Centrar las cartas horizontalmente */
+  gap: 20px; /* Espacio entre las cartas */
+}
+
+.novedades .carta {
+  width: calc(50% - 20px); /* Ancho relativo para que ocupe el 50% del contenedor con espacio entre cartas */
+  max-width: 300px; /* Limita el ancho máximo de la carta */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.novedades .carta h3 {
+  font-size: 1.5rem;
+  color: #333;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.novedades .carta p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  overflow-wrap: break-word; /* Hace que el texto se ajuste automáticamente y se divida en palabras */
+}
+
+.novedades .carta img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para los botones izquierda y derecha */
+.btn-izquierda,
+.btn-derecha {
+    margin-bottom: 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: transform 0.3s; /* Agregar transición para el cambio de transformación */
+}
+
+/* Aplicar zoom al pasar el ratón sobre los botones */
+.btn-izquierda:hover,
+.btn-derecha:hover {
+    transform: scale(1.1); /* Aumentar el tamaño del botón al 110% */
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  background-color: #be0000;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-content {
+  flex: 1;
+}
+
+.footer-content h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.footer-content p {
+  margin: 0;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  background-color: #750000;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.social-icons i:hover {
+  transform: scale(1.2); /* Ajusta el valor según lo grande que quieras que se agrande el icono */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#game-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.game-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.game-card img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.game-title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.game-price {
+  color: green;
+  margin-top: 5px;
+}
+
+.game-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.game-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+/* Estilos para el botón "Agregar al Carrito" */
+.agregar-carrito {
+  background-color: #440606;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.agregar-carrito:hover {
+  background-color: #ff0202;
+}
+
+
+
+
+
+
+
+#cart {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 auto; /* Para centrar horizontalmente */
+  width: 300px; /* Ajusta el ancho según sea necesario */
+  background-color: #f0f0f0; /* Color de fondo del carrito */
+}
+
+#cart h2 {
+  margin-top: 0;
+  color: #333; /* Color del texto del título */
+  text-align: center; /* Centrar el texto */
+  font-family: "Arial Black", sans-serif; /* Fuente negrita */
+}
+
+#cart-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+#total {
+  text-align: right;
+  margin-top: 10px;
+  color: #555; /* Color del texto del total */
+}
+
+#total-amount {
+  font-weight: bold; /* Hace que el total sea más prominente */
+}
+
+#buy-button {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px; /* Tamaño de fuente del botón */
+  margin-top: 10px;
+  display: block;
+  margin: 0 auto; /* Para centrar horizontalmente */
+}
+
+#buy-button:hover {
+  background-color: #6e0000;
+}
+
+
+
+h1 {
+  margin-top: 20px;
+  color: #ff0000;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra con desplazamiento X de 2px, desplazamiento Y de 2px, desenfoque de 4px y color negro con opacidad */
+  transition: text-shadow 0.3s ease; /* Efecto de transición para la sombra del texto */
+}
+
+
+
+#searchInput,
+#categoryFilter {
+    margin: 20px auto;
+    padding: 10px;
+    width: 50%;
+    max-width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+#categoryFilter {
+    margin-top: 5px;
+}
+
+/*# sourceMappingURL=styles.css.map */

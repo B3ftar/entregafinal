@@ -1,0 +1,53 @@
+/* Estilos para la sección del emulador */
+#emuladorInfo {
+    background-color: #c5c5c541; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    text-align: center; /* Centra todo el contenido */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    max-width: 80%; /* Limita el ancho máximo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega sombra al contenedor */
+  }
+  
+  #emuladorInfo p {
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+    font-family: Arial, sans-serif; /* Cambia la fuente a Arial */
+    font-weight: bold;
+    color: rgb(255, 0, 0); /* Texto en rojo */
+    font-size: 1.2em; /* Ajusta el tamaño del texto */
+    text-align: center; /* Centra el texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto */
+  }
+  
+  
+  #nuevoNombreContainer {
+    display: flex; /* Utiliza flexbox para alinear los elementos internos */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    gap: 20px; /* Espacio entre los elementos */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten y envuelvan */
+  }
+  
+  .nuevoNombre {
+    text-align: center; /* Centra el contenido del contenedor */
+  }
+  
+  .nuevoNombre a {
+    display: inline-block; /* Ajusta el enlace al contenido */
+    border-radius: 50%; /* Hace que el enlace sea circular */
+    overflow: hidden; /* Oculta el desbordamiento */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega sombra */
+  }
+  
+  .nuevoNombre img {
+    width: 80px; /* Ancho del icono */
+    height: 80px; /* Altura del icono */
+    max-width: 100%; /* Establece un ancho máximo */
+    max-height: 80px; /* Establece una altura máxima */
+    transition: transform 0.3s ease-in-out; /* Transición suave */
+  }
+  
+  .nuevoNombre:hover img {
+    transform: scale(1.1); /* Escala la imagen al pasar el mouse */
+  }
+  

@@ -1,0 +1,466 @@
+[
+    {
+        "id": 1,
+        "title": "The Witcher 3",
+        "category": "RPG",
+        "price": 29.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg"
+    },
+    
+    {
+        "id": 2,
+        "title": "Cyberpunk 2077",
+        "category": "RPG",
+        "price": 59.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg"
+   
+    },
+    {
+        "id": 3,
+        "title": "Deathloop",
+        "category": "Action",
+        "price": 59.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1252330/header.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Red Dead Redemption 2",
+        "category": "Action",
+        "price": 39.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/header.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Grand Theft Auto V",
+        "category": "Action",
+        "price": 29.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg"
+    },
+    {
+        "id": 6,
+        "title": "DOOM Eternal",
+        "category": "Action",
+        "price": 49.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/782330/header.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Death Stranding",
+        "category": "Action",
+        "price": 59.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1190460/header.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Sekiro",
+        "category": "Action",
+        "price": 49.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/header.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Resident Evil 2 Remake",
+        "category": "Terror",
+        "price": 39.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/883710/header.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Resident Evil 3 Remake",
+        "category": "Terror",
+        "price": 39.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/952060/header.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Resident Evil 7",
+        "category": "Terror",
+        "price": 29.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/418370/header.jpg"
+    },
+    {
+        "id": 12,
+        "title": "Resident Evil Village",
+        "category": "Terror",
+        "price": 49.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1196590/header.jpg"
+    },
+    {
+        "id": 13,
+        "title": "Resident Evil 6",
+        "category": "Terror",
+        "price": 19.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/header.jpg"
+    },
+    {
+        "id": 14,
+        "title": "Resident Evil 5",
+        "category": "Terror",
+        "price": 19.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/21690/header.jpg"
+    },
+    {
+        "id": 15,
+        "title": "Resident Evil 4",
+        "category": "Terror",
+        "price": 19.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/254700/header.jpg"
+    }, {
+        "id": 16,
+        "title": "The Elder Scrolls V: Skyrim",
+        "category": "RPG",
+        "price": 39.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/72850/header.jpg"
+    },
+    {
+        "id": 17,
+        "title": "Final Fantasy XV",
+        "category": "RPG",
+        "price": 49.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/637650/header.jpg"
+    },
+    {
+        "id": 18,
+        "title": "The Witcher 2: Assassins of Kings",
+        "category": "RPG",
+        "price": 19.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/20920/header.jpg"
+    },
+    {
+        "id": 19,
+        "title": "Dragon Age: Inquisition",
+        "category": "RPG",
+        "price": 29.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1222690/header.jpg"
+    },
+    {
+        "id": 20,
+        "title": "Divinity: Original Sin 2",
+        "category": "RPG",
+        "price": 39.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/435150/header.jpg"
+    },
+    {
+        "id": 21,
+        "title": "Mass Effect 2",
+        "category": "RPG",
+        "price": 19.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/24980/header.jpg"
+    },
+    {
+        "id": 22,
+        "title": "Persona 5",
+        "category": "RPG",
+        "price": 29.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1113000/header.jpg"
+    },
+    {
+        "id": 23,
+        "title": "Dark Souls III",
+        "category": "RPG",
+        "price": 49.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/374320/header.jpg"
+    },
+    {
+        "id": 24,
+        "title": "Kingdom Come: Deliverance",
+        "category": "RPG",
+        "price": 39.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/379430/header.jpg"
+    },
+    {
+        "id": 25,
+        "title": "Fallout: New Vegas",
+        "category": "RPG",
+        "price": 19.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/22380/header.jpg"
+    },
+    {
+        "id": 26,
+        "title": "Assassin's Creed Odyssey",
+        "category": "Action",
+        "price": 59.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/812140/header.jpg"
+    },
+    {
+        "id": 27,
+        "title": "Borderlands 3",
+        "category": "Action",
+        "price": 59.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/397540/header.jpg"
+    },
+    {
+        "id": 28,
+        "title": "Dying Light",
+        "category": "Action",
+        "price": 39.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/239140/header.jpg"
+    },
+    {
+        "id": 29,
+        "title": "Far Cry 5",
+        "category": "Action",
+        "price": 49.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/552520/header.jpg"
+    },
+    {
+        "id": 30,
+        "title": "Metro Exodus",
+        "category": "Action",
+        "price": 39.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/412020/header.jpg"
+    },
+    {
+        "id": 31,
+        "title": "Monster Hunter: World",
+        "category": "Action",
+        "price": 29.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/582010/header.jpg"
+    },
+    {
+        "id": 32,
+        "title": "The Last of Us Part 1",
+        "category": "Action",
+        "price": 39.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1888930/header.jpg?t=1705640438"
+    },
+    
+    
+    {
+        "id": 33,
+        "title": "Shadow of the Tomb Raider",
+        "category": "Action",
+        "price": 39.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/750920/header.jpg"
+    },
+    {
+        "id": 34,
+        "title": "Batman: Arkham Knight",
+        "category": "Action",
+        "price": 19.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/208650/header.jpg"
+    },
+    {
+        "id": 35,
+        "title": "Dark Souls Remastered",
+        "category": "Action",
+        "price": 39.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570940/header.jpg"
+    },
+    {
+        "id": 36,
+        "title": "Control",
+        "category": "Action",
+        "price": 59.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/870780/header.jpg"
+    },
+    {
+        "id": 37,
+        "title": "Hitman 3",
+        "category": "Action",
+        "price": 59.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1659040/header.jpg?t=1713343444"
+    },
+    {
+        "id": 38,
+        "title": "Watch Dogs: Legion",
+        "category": "Action",
+        "price": 49.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2239550/header.jpg?t=1692817793"
+    },
+    {
+        "id": 39,
+        "title": "Outlast",
+        "category": "Terror",
+        "price": 19.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/238320/header.jpg"
+    },
+    {
+        "id": 40,
+        "title": "Alien: Isolation",
+        "category": "Terror",
+        "price": 39.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/214490/header.jpg"
+    },
+    {
+        "id": 41,
+        "title": "Amnesia: Rebirth",
+        "category": "Terror",
+        "price": 29.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/999220/header.jpg"
+    },
+    {
+        "id": 42,
+        "title": "Dead by Daylight",
+        "category": "Terror",
+        "price": 19.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/381210/header.jpg"
+    },
+    {
+        "id": 43,
+        "title": "Layers of Fear",
+        "category": "Terror",
+        "price": 19.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/391720/header.jpg"
+    },
+    {
+        "id": 44,
+        "title": "Resident Evil 0",
+        "category": "Terror",
+        "price": 19.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/339340/header.jpg"
+    },
+    {
+        "id": 45,
+        "title": "Far Cry",
+        "category": "Action",
+        "price": 9.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/13520/header.jpg"
+    },
+    {
+        "id": 46,
+        "title": "Far Cry 2",
+        "category": "Action",
+        "price": 9.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/19900/header.jpg"
+    },
+    {
+        "id": 47,
+        "title": "Far Cry 3",
+        "category": "Action",
+        "price": 19.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/220240/header.jpg"
+    },
+    {
+        "id": 48,
+        "title": "Far Cry 3: Blood Dragon",
+        "category": "Action",
+        "price": 14.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/233270/header.jpg"
+    },
+    {
+        "id": 49,
+        "title": "Far Cry 4",
+        "category": "Action",
+        "price": 29.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/298110/header.jpg"
+    },
+    {
+        "id": 50,
+        "title": "Far Cry Primal",
+        "category": "Action",
+        "price": 29.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/371660/header.jpg"
+    },
+    {
+        "id": 51,
+        "title": "Far Cry 5",
+        "category": "Action",
+        "price": 49.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/552520/header.jpg"
+    },
+    {
+        "id": 52,
+        "title": "Far Cry New Dawn",
+        "category": "Action",
+        "price": 39.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/939960/header.jpg"
+    }, 
+    
+    
+    
+    {
+        "id": 53,
+        "title": "Little Nightmares",
+        "category": "Terror",
+        "price": 19.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/424840/header.jpg"
+    },
+    
+    
+    {
+        "id": 54,
+        "title": "Outlast 2",
+        "category": "Terror",
+        "price": 29.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/414700/header.jpg"
+    },
+    {
+        "id": 55,
+        "title": "Dead Space",
+        "category": "Terror",
+        "price": 19.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/17470/header.jpg"
+    },
+    {
+        "id": 56,
+        "title": "Amnesia: The Dark Descent",
+        "category": "Terror",
+        "price": 19.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/57300/header.jpg"
+    },
+    {
+        "id": 57,
+        "title": "Soma",
+        "category": "Terror",
+        "price": 29.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/282140/header.jpg"
+    },
+    {
+        "id": 58,
+        "title": "The Evil Within",
+        "category": "Terror",
+        "price": 19.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/268050/header.jpg"
+    },
+    {
+        "id": 59,
+        "title": "Alan Wake",
+        "category": "Terror",
+        "price": 14.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/108710/header.jpg"
+    },
+    {
+        "id": 60,
+        "title": "GreedFall",
+        "category": "RPG",
+        "price": 49.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/606880/header.jpg"
+    },
+    {
+        "id": 61,
+        "title": "Divinity: Original Sin",
+        "category": "RPG",
+        "price": 39.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/373420/header.jpg"
+    },
+    {
+        "id": 62,
+        "title": "NieR: Automata",
+        "category": "RPG",
+        "price": 39.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/524220/header.jpg"
+    },
+    {
+        "id": 63,
+        "title": "Kingdoms of Amalur: Reckoning",
+        "category": "RPG",
+        "price": 29.99,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/102500/header.jpg"
+    },
+       
+    {
+            "id": 64,
+            "title": "The Outer Worlds",
+            "category": "RPG",
+            "price": 49.99,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/578650/header.jpg"
+        },
+        {
+            "id": 65,
+            "title": "Pillars of Eternity II: Deadfire",
+            "category": "RPG",
+            "price": 39.99,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/560130/header.jpg"
+        }
+]

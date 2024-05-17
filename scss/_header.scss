@@ -1,0 +1,64 @@
+/* Estilos generales para el header */
+
+body {
+  margin: 0; /* Sin margen en el cuerpo */
+  padding: 0;
+ 
+  align-items: center;
+
+  background-color: #f0f0f0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #860000; /* Color de fondo del header */
+    color: white; /* Color de texto del header */
+  }
+  
+  /* Estilos para el logo */
+  .logo img {
+    height: 80px; /* Altura del logo */
+  }
+  
+  /* Estilos para la navegación */
+  .nav {
+    flex-grow: 1; /* La navegación ocupa todo el espacio disponible */
+  }
+  
+  .nav-list {
+    list-style: none; /* Quita los estilos de lista */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+  }
+  
+  .nav-item {
+    margin: 0 10px; /* Espaciado entre los elementos de navegación */
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: white; /* Color del texto del enlace */
+    padding: 5px 10px;
+    border-radius: 5px; /* Borde redondeado para los enlaces */
+  }
+  
+  .nav-item a:hover {
+    background-color: #555; /* Color de fondo al pasar el cursor sobre los enlaces */
+  }
+  
+  /* Media query para pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .nav-list {
+      flex-direction: column; /* Cambia la dirección de la lista a columna */
+      align-items: center; /* Centra los elementos verticalmente */
+    }
+    
+    .nav-item {
+      margin: 10px 0; /* Ajusta el espaciado entre elementos en dispositivos móviles */
+    }
+  }
+  

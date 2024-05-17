@@ -1,0 +1,57 @@
+.footer {
+    background-color: #be0000;
+    color: #fff;
+    padding: 30px 0;
+  }
+  
+  .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .footer-content {
+    flex: 1;
+  }
+  
+  .footer-content h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-content p {
+    margin: 0;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons li:last-child {
+    margin-right: 0;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .footer-bottom {
+    background-color: #750000;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .social-icons i:hover {
+    transform: scale(1.2); /* Ajusta el valor según lo grande que quieras que se agrande el icono */
+  }/*# sourceMappingURL=styles.css.map */

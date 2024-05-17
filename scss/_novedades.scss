@@ -1,0 +1,76 @@
+/* Estilos CSS para la sección de novedades */
+.novedades {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .novedades h2 {
+    font-size: 2.5rem;
+    color: #007bff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  .novedades .cartas-container {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que las cartas se envuelvan en pantallas pequeñas */
+    justify-content: center; /* Centrar las cartas horizontalmente */
+    gap: 20px; /* Espacio entre las cartas */
+  }
+  
+  .novedades .carta {
+    width: calc(50% - 20px); /* Ancho relativo para que ocupe el 50% del contenedor con espacio entre cartas */
+    max-width: 300px; /* Limita el ancho máximo de la carta */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .novedades .carta h3 {
+    font-size: 1.5rem;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  .novedades .carta p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    overflow-wrap: break-word; /* Hace que el texto se ajuste automáticamente y se divida en palabras */
+  }
+  
+  .novedades .carta img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+ /* Estilos para los botones izquierda y derecha */
+.btn-izquierda,
+.btn-derecha {
+    margin-bottom: 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: transform 0.3s; /* Agregar transición para el cambio de transformación */
+}
+
+/* Aplicar zoom al pasar el ratón sobre los botones */
+.btn-izquierda:hover,
+.btn-derecha:hover {
+    transform: scale(1.1); /* Aumentar el tamaño del botón al 110% */
+}
+
+  
+  
+  

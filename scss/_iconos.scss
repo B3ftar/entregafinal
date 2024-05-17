@@ -1,0 +1,44 @@
+#container {
+    text-align: center;
+}
+
+/* Estilo para el botón */
+#toggleIconsBtn {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para el contenedor de iconos */
+#iconContainer {
+    display: none; /* Inicialmente oculto */
+    margin-top: 20px;
+}
+
+/* Estilo para cada icono */
+.icon {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Estilo para las imágenes de los iconos */
+.icon img {
+    width: 100px; /* Tamaño más grande para los iconos */
+    height: 100px; /* Tamaño más grande para los iconos */
+    border-radius: 50%; /* Hacer que las imágenes sean circulares */
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease; /* Transición suave para el borde al pasar el ratón */
+}
+
+/* Efecto de borde al pasar el ratón sobre los iconos */
+.icon img:hover {
+    border-color: #007bff; /* Color del borde al pasar el ratón */
+}
+
+/* Para mostrar los iconos cuando se hace clic en el botón */
+#iconContainer.show {
+    display: block;
+}
