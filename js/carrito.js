@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const buyGameButton = document.getElementById('buy-game-button');
     const searchInput = document.getElementById('searchInput');
     const categoryFilter = document.getElementById('categoryFilter');
-    
+
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
     let gamesData = [];
 
@@ -87,18 +87,23 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function addToCart(game) {
-        cart.push(game);
+        const existingItem = cart.find(item => item.id === game.id);
+        if (existingItem) {
+            existingItem.quantity++;
+        } else {
+            cart.push({ ...game, quantity: 1 });
+        }
         localStorage.setItem('cart', JSON.stringify(cart));
     }
 
     function updateCart() {
         if (!cartItems || !totalAmount) return;
-    
+
         cartItems.innerHTML = '';
         let total = 0;
         cart.forEach(item => {
             const listItem = document.createElement('li');
-            listItem.textContent = `${item.title} - $${item.price.toFixed(2)}`;
+            listItem.textContent = `${item.title} - $${item.price.toFixed(2)} x ${item.quantity}`;
             
             const deleteButton = document.createElement('button');
             deleteButton.textContent = 'Eliminar';
@@ -109,16 +114,21 @@ document.addEventListener('DOMContentLoaded', () => {
             
             listItem.appendChild(deleteButton);
             cartItems.appendChild(listItem);
-            total += item.price;
+            total += item.price * item.quantity;
         });
         totalAmount.textContent = total.toFixed(2);
     }
-    
+
     function removeFromCart(item) {
-        cart = cart.filter(cartItem => cartItem.id !== item.id);
+        const cartItem = cart.find(cartItem => cartItem.id === item.id);
+        if (cartItem.quantity > 1) {
+            cartItem.quantity--;
+        } else {
+            cart = cart.filter(cartItem => cartItem.id !== item.id);
+        }
         localStorage.setItem('cart', JSON.stringify(cart));
     }
-    
+
     if (buyButton) {
         buyButton.addEventListener('click', () => {
             if (cart.length > 0) {

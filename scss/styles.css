@@ -296,7 +296,30 @@ body {
 
 
 
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  margin-top: 20px;
+  color: #ff0000;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: text-shadow 0.3s ease;
+}
+
+/* Estilos para la lista de juegos */
 #game-list {
   display: flex;
   flex-wrap: wrap;
@@ -310,6 +333,13 @@ body {
   margin: 10px;
   width: 200px;
   text-align: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.game-card:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 .game-card img {
@@ -320,6 +350,7 @@ body {
 .game-title {
   font-weight: bold;
   margin-top: 10px;
+  color: #333;
 }
 
 .game-price {
@@ -331,55 +362,33 @@ body {
   background-color: #007bff;
   color: white;
   border: none;
-  padding: 5px 10px;
+  padding: 8px 12px;
   border-radius: 3px;
   cursor: pointer;
   margin-top: 10px;
+  transition: background-color 0.3s ease;
 }
 
 .game-button:hover {
   background-color: #0056b3;
 }
 
-
-
-
-
-/* Estilos para el botón "Agregar al Carrito" */
-.agregar-carrito {
-  background-color: #440606;
-  color: white;
-  border: none;
-  border-radius: 3px;
-  padding: 5px 10px;
-  cursor: pointer;
-  margin-top: 10px;
-}
-
-.agregar-carrito:hover {
-  background-color: #ff0202;
-}
-
-
-
-
-
-
-
+/* Estilos para el carrito */
 #cart {
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 20px;
-  margin: 0 auto; /* Para centrar horizontalmente */
-  width: 300px; /* Ajusta el ancho según sea necesario */
-  background-color: #f0f0f0; /* Color de fondo del carrito */
+  margin: 20px auto;
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #cart h2 {
   margin-top: 0;
-  color: #333; /* Color del texto del título */
-  text-align: center; /* Centrar el texto */
-  font-family: "Arial Black", sans-serif; /* Fuente negrita */
+  color: #333;
+  text-align: center;
+  font-family: "Arial Black", sans-serif;
 }
 
 #cart-items {
@@ -387,14 +396,23 @@ body {
   padding: 0;
 }
 
+#cart-items li {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+#cart-items li:last-child {
+  border-bottom: none;
+}
+
 #total {
   text-align: right;
   margin-top: 10px;
-  color: #555; /* Color del texto del total */
+  color: #555;
 }
 
 #total-amount {
-  font-weight: bold; /* Hace que el total sea más prominente */
+  font-weight: bold;
 }
 
 #buy-button {
@@ -404,42 +422,31 @@ body {
   border-radius: 5px;
   padding: 10px 20px;
   cursor: pointer;
-  font-size: 16px; /* Tamaño de fuente del botón */
-  margin-top: 10px;
+  font-size: 16px;
+  margin-top: 20px;
   display: block;
-  margin: 0 auto; /* Para centrar horizontalmente */
+  margin: 20px auto;
+  transition: background-color 0.3s ease;
 }
 
 #buy-button:hover {
   background-color: #6e0000;
 }
 
-
-
-h1 {
-  margin-top: 20px;
-  color: #ff0000;
-  text-transform: uppercase;
-  font-family: Arial, sans-serif;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra con desplazamiento X de 2px, desplazamiento Y de 2px, desenfoque de 4px y color negro con opacidad */
-  transition: text-shadow 0.3s ease; /* Efecto de transición para la sombra del texto */
-}
-
-
-
+/* Estilos para los filtros */
 #searchInput,
 #categoryFilter {
-    margin: 20px auto;
-    padding: 10px;
-    width: 50%;
-    max-width: 200px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    font-size: 16px;
+  margin: 20px auto;
+  padding: 10px;
+  width: 50%;
+  max-width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
 }
 
 #categoryFilter {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 /*# sourceMappingURL=styles.css.map */
