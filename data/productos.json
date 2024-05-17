@@ -5,31 +5,57 @@
         "category": "RPG",
         "price": 29.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
-        "description": "The Witcher 3: Wild Hunt es un videojuego de rol desarrollado y publicado por CD Projekt, basado en la serie de libros de fantasía del escritor polaco Andrzej Sapkowski. Es la tercera entrega de la serie de videojuegos The Witcher, y sigue al cazador de monstruos Geralt de Rivia en sus esfuerzos por encontrar a su hija adoptiva."
+        "description": "The Witcher 3: Wild Hunt es un videojuego de rol desarrollado y publicado por CD Projekt, basado en la serie de libros de fantasía del escritor polaco Andrzej Sapkowski. Es la tercera entrega de la serie de videojuegos The Witcher, y sigue al cazador de monstruos Geralt de Rivia en sus esfuerzos por encontrar a su hija adoptiva.",
+        "requirements": {
+            "processor": "Intel Core i5-2500K 3.3GHz / AMD Phenom II X4 940",
+            "memory": "6 GB de RAM",
+            "graphics": "NVIDIA GeForce GTX 660 / AMD Radeon HD 7870",
+            "storage": "35 GB de espacio disponible"
+        }
     },
+
     {
         "id": 2,
         "title": "Cyberpunk 2077",
         "category": "RPG",
         "price": 59.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
-        "description": "Cyberpunk 2077 es un videojuego de rol de acción desarrollado y publicado por CD Projekt. Se lanzó para Microsoft Windows, PlayStation 4, Stadia y Xbox One el 10 de diciembre de 2020, y se espera que se lance para PlayStation 5 y Xbox Series X/S en 2021."
+        "description": "Cyberpunk 2077 es un videojuego de rol de acción desarrollado y publicado por CD Projekt. Se lanzó para Microsoft Windows, PlayStation 4, Stadia y Xbox One el 10 de diciembre de 2020, y se espera que se lance para PlayStation 5 y Xbox Series X/S en 2021.",
+        "requirements": {
+            "processor": "Intel Core i5-3570K / AMD FX-8310",
+            "memory": "8 GB de RAM",
+            "graphics": "NVIDIA GeForce GTX 780 / AMD Radeon RX 470",
+            "storage": "70 GB de espacio disponible (SSD recomendado)"
+        }
     },
-    {
+      {
         "id": 3,
         "title": "Deathloop",
         "category": "Action",
         "price": 59.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1252330/header.jpg",
-        "description": "Deathloop es un videojuego de acción-aventura en primera persona desarrollado por Arkane Studios y publicado por Bethesda Softworks. Fue lanzado el 14 de septiembre de 2021 para PlayStation 5 y Microsoft Windows."
+        "description": "Deathloop es un videojuego de acción-aventura en primera persona desarrollado por Arkane Studios y publicado por Bethesda Softworks. Fue lanzado el 14 de septiembre de 2021 para PlayStation 5 y Microsoft Windows.",
+        "requirements": {
+            "processor": "Intel Core i5-8400 / AMD Ryzen 5 1600",
+            "memory": "12 GB de RAM",
+            "graphics": "NVIDIA GeForce GTX 1060 / AMD Radeon RX 580",
+            "storage": "30 GB de espacio disponible"
+        }
     },
+    
     {
         "id": 4,
         "title": "Red Dead Redemption 2",
         "category": "Action",
         "price": 39.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/header.jpg",
-        "description": "Red Dead Redemption 2 es un videojuego de acción-aventura western, en un mundo abierto y en perspectiva de primera y tercera persona,​ con componentes para un jugador y multijugador. Fue desarrollado por Rockstar Games. Es la tercera entrega de la saga Red Dead y es una precuela de Red Dead Redemption."
+        "description": "Red Dead Redemption 2 es un videojuego de acción-aventura western, en un mundo abierto y en perspectiva de primera y tercera persona,​ con componentes para un jugador y multijugador. Fue desarrollado por Rockstar Games. Es la tercera entrega de la saga Red Dead y es una precuela de Red Dead Redemption.",
+        "requirements": {
+            "processor": "Intel Core i5-3570K / AMD FX-8310",
+            "memory": "8 GB de RAM",
+            "graphics": "NVIDIA GeForce GTX 780 / AMD Radeon RX 470",
+            "storage": "70 GB de espacio disponible (SSD recomendado)"
+        }
     },
     {
         "id": 5,
@@ -37,24 +63,51 @@
         "category": "Action",
         "price": 29.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg",
-        "description": "Grand Theft Auto V es un videojuego de acción-aventura de mundo abierto desarrollado por la compañía británica Rockstar North y distribuido por Rockstar Games. Fue lanzado el 17 de septiembre de 2013 para las consolas PlayStation 3 y Xbox 360."
+        "description": "Grand Theft Auto V es un videojuego de acción-aventura de mundo abierto desarrollado por la compañía británica Rockstar North y distribuido por Rockstar Games. Fue lanzado el 17 de septiembre de 2013 para las consolas PlayStation 3 y Xbox 360.",
+        "requirements": {
+            "processor": "Intel Core i5-3570K / AMD FX-8310",
+            "memory": "8 GB de RAM",
+            "graphics": "NVIDIA GeForce GTX 780 / AMD Radeon RX 470",
+            "storage": "70 GB de espacio disponible (SSD recomendado)"
+        }
     },
+
+
+
+
+
+
+
+
     {
         "id": 6,
         "title": "DOOM Eternal",
         "category": "Action",
         "price": 49.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/782330/header.jpg",
-        "description": "Doom Eternal es un videojuego de disparos en primera persona desarrollado por id Software y publicado por Bethesda Softworks. Es la secuela del videojuego de 2016 Doom y el quinto principal de la serie Doom."
+        "requirements": {
+            "processor": "Intel Core i5-3570K / AMD FX-8310",
+            "memory": "8 GB de RAM",
+            "graphics": "NVIDIA GeForce GTX 780 / AMD Radeon RX 470",
+            "storage": "70 GB de espacio disponible (SSD recomendado)"
+        }
     },
 
-    {
+
+
+      {
         "id": 7,
         "title": "Death Stranding",
         "category": "Action",
         "price": 59.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1190460/header.jpg",
-        "description": "Death Stranding es un videojuego de acción y aventuras desarrollado por Kojima Productions y publicado por Sony Interactive Entertainment. Fue lanzado en noviembre de 2019 para PlayStation 4 y en julio de 2020 para Microsoft Windows. El juego sigue a Sam Bridges mientras viaja a través de un paisaje apocalíptico para reconectar ciudades y sociedades aisladas."
+        "description": "Death Stranding es un videojuego de acción y aventuras desarrollado por Kojima Productions y publicado por Sony Interactive Entertainment. Fue lanzado en noviembre de 2019 para PlayStation 4 y en julio de 2020 para Microsoft Windows. El juego sigue a Sam Bridges mientras viaja a través de un paisaje apocalíptico para reconectar ciudades y sociedades aisladas.",
+        "requirements": {
+            "processor": "Intel Core i5-3470 / AMD Ryzen 3 1200",
+            "memory": "8 GB de RAM",
+            "graphics": "NVIDIA GeForce GTX 1050 / AMD Radeon RX 560",
+            "storage": "80 GB de espacio disponible"
+        }
     },
     {
         "id": 8,
@@ -62,7 +115,13 @@
         "category": "Action",
         "price": 49.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/header.jpg",
-        "description": "Sekiro: Shadows Die Twice es un videojuego de acción y aventuras desarrollado por FromSoftware y publicado por Activision. Se lanzó en marzo de 2019 para Microsoft Windows, PlayStation 4 y Xbox One. El juego se ambienta en el Japón de la era Sengoku y sigue a un shinobi conocido como 'Sekiro', quien busca vengar el secuestro de su maestro y rescatar a su señor."
+        "description": "Sekiro: Shadows Die Twice es un videojuego de acción y aventuras desarrollado por FromSoftware y publicado por Activision. Se lanzó en marzo de 2019 para Microsoft Windows, PlayStation 4 y Xbox One. El juego se ambienta en el Japón de la era Sengoku y sigue a un shinobi conocido como 'Sekiro', quien busca vengar el secuestro de su maestro y rescatar a su señor.",
+        "requirements": {
+            "processor": "Intel Core i3-2100 / AMD FX-6300",
+            "memory": "4 GB de RAM",
+            "graphics": "NVIDIA GeForce GTX 760 / AMD Radeon HD 7950",
+            "storage": "25 GB de espacio disponible"
+        }
     },
     {
         "id": 9,
@@ -70,7 +129,13 @@
         "category": "Terror",
         "price": 39.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/883710/header.jpg",
-        "description": "Resident Evil 2 es un videojuego de terror de supervivencia desarrollado y publicado por Capcom. Es un remake del juego de 1998 del mismo nombre y fue lanzado en enero de 2019 para PlayStation 4, Xbox One y Microsoft Windows. El juego sigue a los personajes Leon S. Kennedy y Claire Redfield mientras luchan por sobrevivir y escapar de Raccoon City, infestada de zombis."
+        "description": "Resident Evil 2 es un videojuego de terror de supervivencia desarrollado y publicado por Capcom. Es un remake del juego de 1998 del mismo nombre y fue lanzado en enero de 2019 para PlayStation 4, Xbox One y Microsoft Windows. El juego sigue a los personajes Leon S. Kennedy y Claire Redfield mientras luchan por sobrevivir y escapar de Raccoon City, infestada de zombis.",
+        "requirements": {
+            "processor": "Intel Core i5-4460 / AMD FX-6300",
+            "memory": "8 GB de RAM",
+            "graphics": "NVIDIA GeForce GTX 760 / AMD Radeon R7 260X",
+            "storage": "26 GB de espacio disponible"
+        }
     },
     {
         "id": 10,
@@ -78,7 +143,13 @@
         "category": "Terror",
         "price": 39.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/952060/header.jpg",
-        "description": "Resident Evil 3 es un videojuego de terror de supervivencia desarrollado y publicado por Capcom. Es un remake del juego de 1999 del mismo nombre y fue lanzado en abril de 2020 para PlayStation 4, Xbox One y Microsoft Windows. El juego sigue a Jill Valentine mientras intenta escapar de Raccoon City, que está siendo destruida por el brote del virus T."
+        "description": "Resident Evil 3 es un videojuego de terror de supervivencia desarrollado y publicado por Capcom. Es un remake del juego de 1999 del mismo nombre y fue lanzado en abril de 2020 para PlayStation 4, Xbox One y Microsoft Windows. El juego sigue a Jill Valentine mientras intenta escapar de Raccoon City, que está siendo destruida por el brote del virus T.",
+        "requirements": {
+            "processor": "Intel Core i5-4460 / AMD FX-6300",
+            "memory": "8 GB de RAM",
+            "graphics": "NVIDIA GeForce GTX 760 / AMD Radeon R7 260X",
+            "storage": "45 GB de espacio disponible"
+        }
     },
     {
         "id": 11,
@@ -86,7 +157,13 @@
         "category": "Terror",
         "price": 29.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/418370/header.jpg",
-        "description": "Resident Evil 7: Biohazard es un videojuego de terror de supervivencia desarrollado y publicado por Capcom. Fue lanzado en enero de 2017 para PlayStation 4, Xbox One y Microsoft Windows, y más tarde para Nintendo Switch. El juego sigue a Ethan Winters mientras busca a su esposa desaparecida en una plantación infestada de una familia perturbada y mutantes."
+        "description": "Resident Evil 7: Biohazard es un videojuego de terror de supervivencia desarrollado y publicado por Capcom. Fue lanzado en enero de 2017 para PlayStation 4, Xbox One y Microsoft Windows, y más tarde para Nintendo Switch. El juego sigue a Ethan Winters mientras busca a su esposa desaparecida en una plantación infestada de una familia perturbada y mutantes.",
+        "requirements": {
+            "processor": "Intel Core i5-4460 / AMD FX-6300",
+            "memory": "8 GB de RAM",
+            "graphics": "NVIDIA GeForce GTX 760 / AMD Radeon R7 260X",
+            "storage": "24 GB de espacio disponible"
+        }
     },
     {
         "id": 12,
@@ -94,31 +171,45 @@
         "category": "Terror",
         "price": 49.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1196590/header.jpg",
-        "description": "Resident Evil Village es un videojuego de terror de supervivencia desarrollado y publicado por Capcom. Es la secuela directa de Resident Evil 7: Biohazard y fue lanzado en mayo de 2021 para PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S, Microsoft Windows y Google Stadia. El juego sigue a Ethan Winters mientras busca a su hija secuestrada en un pueblo habitado por criaturas grotescas y un culto siniestro."
+        "description": "Resident Evil Village es un videojuego de terror de supervivencia desarrollado y publicado por Capcom. Es la secuela directa de Resident Evil 7: Biohazard y fue lanzado en mayo de 2021 para PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S, Microsoft Windows y Google Stadia. El juego sigue a Ethan Winters mientras busca a su hija secuestrada en un pueblo habitado por criaturas grotescas y un culto siniestro.",
+        "requirements": {
+            "processor": "Intel Core i5-7500 / AMD Ryzen 3 1200",
+            "memory": "8 GB de RAM",
+            "graphics": "NVIDIA GeForce GTX 1050 Ti / AMD Radeon RX 560",
+            "storage": "45 GB de espacio disponible"
+        }
     },
+
+
+
+
     {
         "id": 13,
         "title": "Resident Evil 6",
         "category": "Terror",
         "price": 19.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/header.jpg",
-        "description": "Resident Evil 6 es un videojuego de terror de acción desarrollado y publicado por Capcom. Fue lanzado en octubre de 2012 para PlayStation 3, Xbox 360 y Microsoft Windows, y más tarde para PlayStation 4, Xbox One y Nintendo Switch. El juego presenta una serie de campañas interconectadas protagonizadas por varios personajes de la serie Resident Evil, que luchan contra una amenaza bioterrorista global."
+        "description": "Resident Evil 6 es un videojuego de terror de acción desarrollado y publicado por Capcom. Fue lanzado en octubre de 2012 para PlayStation 3, Xbox 360 y Microsoft Windows, y más tarde para PlayStation 4, Xbox One y Nintendo Switch. El juego presenta una serie de campañas interconectadas protagonizadas por varios personajes de la serie Resident Evil, que luchan contra una amenaza bioterrorista global.",
+        "requirements": {
+            "processor": "Intel Core 2 Duo 2.4 GHz or AMD Athlon X2 2.8 GHz",
+            "memory": "2 GB RAM",
+            "graphics": "NVIDIA GeForce 8800GTS or ATI Radeon HD 4850",
+            "storage": "16 GB available space"
+        }
     },
-
-
-
-
-
-
-
-
     {
         "id": 14,
         "title": "Resident Evil 5",
         "category": "Terror",
         "price": 19.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/21690/header.jpg",
-        "description": "Resident Evil 5 es un videojuego de terror de acción desarrollado y publicado por Capcom. Fue lanzado en marzo de 2009 para PlayStation 3, Xbox 360 y Microsoft Windows, y más tarde para PlayStation 4, Xbox One y Nintendo Switch. El juego sigue a Chris Redfield y Sheva Alomar mientras investigan una región africana infestada de un virus mutante conocido como 'Uroboros'."
+        "description": "Resident Evil 5 es un videojuego de terror de acción desarrollado y publicado por Capcom. Fue lanzado en marzo de 2009 para PlayStation 3, Xbox 360 y Microsoft Windows, y más tarde para PlayStation 4, Xbox One y Nintendo Switch. El juego sigue a Chris Redfield y Sheva Alomar mientras investigan una región africana infestada de un virus mutante conocido como 'Uroboros'.",
+        "requirements": {
+            "processor": "Intel Core 2 Quad 2.4 GHz or AMD Phenom II x4 3.4 GHz",
+            "memory": "4 GB RAM",
+            "graphics": "NVIDIA GeForce 9800 GTX or ATI Radeon HD 7770",
+            "storage": "15 GB available space"
+        }
     },
     {
         "id": 15,
@@ -126,7 +217,13 @@
         "category": "Terror",
         "price": 19.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/254700/header.jpg",
-        "description": "Resident Evil 4 es un videojuego de terror de acción desarrollado y publicado por Capcom. Fue lanzado originalmente en enero de 2005 para GameCube y más tarde para PlayStation 2, Microsoft Windows, Wii, iOS, Android y otras plataformas. El juego sigue a Leon S. Kennedy mientras rescata a la hija del presidente de los Estados Unidos en un pueblo europeo infestado de parásitos controlados por una secta."
+        "description": "Resident Evil 4 es un videojuego de terror de acción desarrollado y publicado por Capcom. Fue lanzado originalmente en enero de 2005 para GameCube y más tarde para PlayStation 2, Microsoft Windows, Wii, iOS, Android y otras plataformas. El juego sigue a Leon S. Kennedy mientras rescata a la hija del presidente de los Estados Unidos en un pueblo europeo infestado de parásitos controlados por una secta.",
+        "requirements": {
+            "processor": "Intel Core 2 Duo 2.4 GHz or AMD Athlon 64 X2 2.8 GHz",
+            "memory": "2 GB RAM",
+            "graphics": "NVIDIA GeForce 8800GTS or ATI Radeon HD 4850",
+            "storage": "15 GB available space"
+        }
     },
     {
         "id": 16,
@@ -150,15 +247,32 @@
         "category": "RPG",
         "price": 19.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/20920/header.jpg",
-        "description": "The Witcher 2: Assassins of Kings es un videojuego de rol desarrollado por CD Projekt Red y publicado por Atari. Fue lanzado en mayo de 2011 para Microsoft Windows, y más tarde para Xbox 360, OS X y Linux. El juego sigue al cazador de monstruos Geralt de Rivia mientras se ve envuelto en una conspiración política que amenaza con sumir al reino en la guerra."
+        "description": "The Witcher 2: Assassins of Kings es un videojuego de rol desarrollado por CD Projekt Red y publicado por Atari. Fue lanzado en mayo de 2011 para Microsoft Windows, y más tarde para Xbox 360, OS X y Linux. El juego sigue al cazador de monstruos Geralt de Rivia mientras se ve envuelto en una conspiración política que amenaza con sumir al reino en la guerra.",
+        "requirements": {
+            "processor": "Intel Core 2 Duo 2.2 GHz or AMD Athlon 64 X2 5000+",
+            "memory": "1 GB RAM (XP) / 2 GB RAM (Vista)",
+            "graphics": "NVIDIA GeForce 8800 or ATI Radeon HD 3850",
+            "storage": "25 GB available space"
+        }
     },
+
+
+
+
+
     {
         "id": 19,
         "title": "Dragon Age: Inquisition",
         "category": "RPG",
         "price": 29.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1222690/header.jpg",
-        "description": "Dragon Age: Inquisition es un videojuego de rol desarrollado por BioWare y publicado por Electronic Arts. Fue lanzado en noviembre de 2014 para PlayStation 3, PlayStation 4, Xbox 360, Xbox One y Microsoft Windows. El juego sigue al Inquisidor mientras lucha contra una fuerza maligna conocida como la Brecha y busca restaurar el orden en el mundo de Thedas."
+        "description": "Dragon Age: Inquisition es un videojuego de rol desarrollado por BioWare y publicado por Electronic Arts. Fue lanzado en noviembre de 2014 para PlayStation 3, PlayStation 4, Xbox 360, Xbox One y Microsoft Windows. El juego sigue al Inquisidor mientras lucha contra una fuerza maligna conocida como la Brecha y busca restaurar el orden en el mundo de Thedas.",
+        "requirements": {
+            "processor": "Intel Quad Core CPU @ 2.0 GHz",
+            "memory": "4 GB RAM",
+            "graphics": "NVIDIA GeForce 8800 GT or AMD Radeon HD 4870",
+            "storage": "26 GB available space"
+        }
     },
     {
         "id": 20,
@@ -166,7 +280,13 @@
         "category": "RPG",
         "price": 39.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/435150/header.jpg",
-        "description": "Divinity: Original Sin 2 es un videojuego de rol desarrollado y publicado por Larian Studios. Fue lanzado en septiembre de 2017 para Microsoft Windows, y más tarde para PlayStation 4, Xbox One, macOS y Nintendo Switch. El juego es una continuación de Divinity: Original Sin y sigue a un grupo de personajes que buscan convertirse en los nuevos dioses de Rivellon."
+        "description": "Divinity: Original Sin 2 es un videojuego de rol desarrollado y publicado por Larian Studios. Fue lanzado en septiembre de 2017 para Microsoft Windows, y más tarde para PlayStation 4, Xbox One, macOS y Nintendo Switch. El juego es una continuación de Divinity: Original Sin y sigue a un grupo de personajes que buscan convertirse en los nuevos dioses de Rivellon.",
+        "requirements": {
+            "processor": "Intel Core i5 or equivalent",
+            "memory": "4 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 550 or ATI Radeon HD 6XXX",
+            "storage": "25 GB available space"
+        }
     },
     {
         "id": 21,
@@ -174,7 +294,13 @@
         "category": "RPG",
         "price": 19.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/24980/header.jpg",
-        "description": "Mass Effect 2 es un videojuego de rol de ciencia ficción desarrollado por BioWare y publicado por Electronic Arts. Fue lanzado en enero de 2010 para Xbox 360 y Microsoft Windows, y más tarde para PlayStation 3. El juego sigue al comandante Shepard mientras reúne un equipo diverso para enfrentarse a una amenaza alienígena conocida como los Segadores."
+        "description": "Mass Effect 2 es un videojuego de rol de ciencia ficción desarrollado por BioWare y publicado por Electronic Arts. Fue lanzado en enero de 2010 para Xbox 360 y Microsoft Windows, y más tarde para PlayStation 3. El juego sigue al comandante Shepard mientras reúne un equipo diverso para enfrentarse a una amenaza alienígena conocida como los Segadores.",
+        "requirements": {
+            "processor": "Intel Core 2 Duo @ 1.8 GHz or AMD Phenom X2 @ 2.0 GHz",
+            "memory": "1 GB RAM (XP) / 2 GB RAM (Vista/Win 7)",
+            "graphics": "NVIDIA GeForce 6800 or ATI Radeon X1300",
+            "storage": "15 GB available space"
+        }
     },
 
 
@@ -199,7 +325,13 @@
         "category": "RPG",
         "price": 29.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1113000/header.jpg",
-        "description": "Persona 5 es un juego de rol desarrollado por Atlus y publicado por Sega. Lanzado en abril de 2017 para PlayStation 3 y PlayStation 4, sigue las vidas de unos estudiantes de secundaria en Tokio que se convierten en ladrones de corazones y se aventuran en el mundo de la metaversión para reformar a las personas corruptas."
+        "description": "Persona 5 es un juego de rol desarrollado por Atlus y publicado por Sega. Lanzado en abril de 2017 para PlayStation 3 y PlayStation 4, sigue las vidas de unos estudiantes de secundaria en Tokio que se convierten en ladrones de corazones y se aventuran en el mundo de la metaversión para reformar a las personas corruptas.",
+        "requirements": {
+            "processor": "Intel Core i5-2500K / AMD FX-6350",
+            "memory": "4 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 660 / AMD Radeon HD 7870",
+            "storage": "14 GB available space"
+        }
     },
     {
         "id": 23,
@@ -207,7 +339,13 @@
         "category": "RPG",
         "price": 49.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/374320/header.jpg",
-        "description": "Dark Souls III es un juego de rol de acción desarrollado por FromSoftware y publicado por Bandai Namco Entertainment. Es conocido por su desafiante y gratificante sistema de juego, así como por su atmósfera oscura y misteriosa. Lanzado en abril de 2016 para PlayStation 4, Xbox One y Microsoft Windows, lleva a los jugadores a un mundo lleno de peligros y jefes imponentes."
+        "description": "Dark Souls III es un juego de rol de acción desarrollado por FromSoftware y publicado por Bandai Namco Entertainment. Es conocido por su desafiante y gratificante sistema de juego, así como por su atmósfera oscura y misteriosa. Lanzado en abril de 2016 para PlayStation 4, Xbox One y Microsoft Windows, lleva a los jugadores a un mundo lleno de peligros y jefes imponentes.",
+        "requirements": {
+            "processor": "Intel Core i3-2100 / AMD FX-6300",
+            "memory": "4 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 750 Ti / ATI Radeon HD 7950",
+            "storage": "25 GB available space"
+        }
     },
     {
         "id": 24,
@@ -215,7 +353,13 @@
         "category": "RPG",
         "price": 39.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/379430/header.jpg",
-        "description": "Kingdom Come: Deliverance es un juego de rol de mundo abierto desarrollado por Warhorse Studios. Lanzado en febrero de 2018 para PlayStation 4, Xbox One y Microsoft Windows, se ambienta en el Sacro Imperio Romano Germánico y ofrece una experiencia histórica realista, sin elementos de fantasía, donde los jugadores asumen el papel de un hijo de un herrero en una misión para vengar la muerte de su familia."
+        "description": "Kingdom Come: Deliverance es un juego de rol de mundo abierto desarrollado por Warhorse Studios. Lanzado en febrero de 2018 para PlayStation 4, Xbox One y Microsoft Windows, se ambienta en el Sacro Imperio Romano Germánico y ofrece una experiencia histórica realista, sin elementos de fantasía, donde los jugadores asumen el papel de un hijo de un herrero en una misión para vengar la muerte de su familia.",
+        "requirements": {
+            "processor": "Intel Core i5-2500K / AMD Phenom II X4 940",
+            "memory": "8 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 660 / AMD Radeon HD 7870",
+            "storage": "40 GB available space"
+        }
     },
     {
         "id": 25,
@@ -223,7 +367,13 @@
         "category": "RPG",
         "price": 19.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/22380/header.jpg",
-        "description": "Fallout: New Vegas es un juego de rol de acción desarrollado por Obsidian Entertainment y publicado por Bethesda Softworks. Lanzado en octubre de 2010 para PlayStation 3, Xbox 360 y Microsoft Windows, está ambientado en un mundo postapocalíptico en el desierto de Mojave. Los jugadores asumen el papel de un mensajero que busca venganza en un conflicto entre facciones por el control de la región."
+        "description": "Fallout: New Vegas es un juego de rol de acción desarrollado por Obsidian Entertainment y publicado por Bethesda Softworks. Lanzado en octubre de 2010 para PlayStation 3, Xbox 360 y Microsoft Windows, está ambientado en un mundo postapocalíptico en el desierto de Mojave. Los jugadores asumen el papel de un mensajero que busca venganza en un conflicto entre facciones por el control de la región.",
+        "requirements": {
+            "processor": "Intel Core 2 Duo 2.4 GHz / AMD Athlon X2 5200+",
+            "memory": "2 GB RAM",
+            "graphics": "NVIDIA GeForce 6 series / ATI 1300XT series",
+            "storage": "10 GB available space"
+        }
     },
     {
         "id": 26,
@@ -231,7 +381,13 @@
         "category": "Action",
         "price": 59.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/812140/header.jpg",
-        "description": "Assassin's Creed Odyssey es un juego de acción y aventuras desarrollado por Ubisoft. Lanzado en octubre de 2018 para PlayStation 4, Xbox One y Microsoft Windows, transporta a los jugadores a la antigua Grecia, donde pueden explorar un vasto mundo abierto, embarcarse en misiones épicas y tomar decisiones que afectan el destino de su personaje."
+        "description": "Assassin's Creed Odyssey es un juego de acción y aventuras desarrollado por Ubisoft. Lanzado en octubre de 2018 para PlayStation 4, Xbox One y Microsoft Windows, transporta a los jugadores a la antigua Grecia, donde pueden explorar un vasto mundo abierto, embarcarse en misiones épicas y tomar decisiones que afectan el destino de su personaje.",
+        "requirements": {
+            "processor": "Intel Core i5-2400 / AMD FX-6300",
+            "memory": "8 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 660 / AMD Radeon R9 285",
+            "storage": "46+ GB available space"
+        }
     },
     {
         "id": 27,
@@ -239,15 +395,35 @@
         "category": "Action",
         "price": 59.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/397540/header.jpg",
-        "description": "Borderlands 3 es un juego de disparos en primera persona desarrollado por Gearbox Software. Lanzado en septiembre de 2019 para PlayStation 4, Xbox One y Microsoft Windows, continúa la serie Borderlands con una nueva historia, personajes y armas. Los jugadores exploran mundos diferentes mientras luchan contra enemigos y recolectan botín en su búsqueda de la legendaria Cámara."
+        "description": "Borderlands 3 es un juego de disparos en primera persona desarrollado por Gearbox Software. Lanzado en septiembre de 2019 para PlayStation 4, Xbox One y Microsoft Windows, continúa la serie Borderlands con una nueva historia, personajes y armas. Los jugadores exploran mundos diferentes mientras luchan contra enemigos y recolectan botín en su búsqueda de la legendaria Cámara.",
+        "requirements": {
+            "processor": "AMD FX-8350 / Intel i5-3570",
+            "memory": "6 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 680 / AMD Radeon HD 7970",
+            "storage": "75 GB available space"
+        }
     },
+
+
+
+
+
+
+
+
     {
         "id": 28,
         "title": "Dying Light",
         "category": "Action",
         "price": 39.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/239140/header.jpg",
-        "description": "Dying Light es un juego de acción y supervivencia desarrollado por Techland. Lanzado en enero de 2015 para PlayStation 4, Xbox One y Microsoft Windows, lleva a los jugadores a un mundo infectado por un virus mortal. Durante el día, los jugadores exploran el mundo y buscan suministros, mientras que por la noche luchan por sobrevivir contra criaturas mutantes."
+        "description": "Dying Light es un juego de acción y supervivencia desarrollado por Techland. Lanzado en enero de 2015 para PlayStation 4, Xbox One y Microsoft Windows, lleva a los jugadores a un mundo infectado por un virus mortal. Durante el día, los jugadores exploran el mundo y buscan suministros, mientras que por la noche luchan por sobrevivir contra criaturas mutantes.",
+        "requirements": {
+            "processor": "Intel Core i5-2500 / AMD FX-8320",
+            "memory": "4 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 560 / AMD Radeon HD 6870",
+            "storage": "40 GB available space"
+        }
     },
     {
         "id": 29,
@@ -255,7 +431,13 @@
         "category": "Action",
         "price": 49.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/552520/header.jpg",
-        "description": "Far Cry 5 es un juego de disparos en primera persona desarrollado por Ubisoft. Lanzado en marzo de 2018 para PlayStation 4, Xbox One y Microsoft Windows, tiene lugar en el ficticio condado de Hope en Montana, Estados Unidos. Los jugadores asumen el papel de un alguacil novato que debe luchar contra una secta violenta que ha tomado el control del condado."
+        "description": "Far Cry 5 es un juego de disparos en primera persona desarrollado por Ubisoft. Lanzado en marzo de 2018 para PlayStation 4, Xbox One y Microsoft Windows, tiene lugar en el ficticio condado de Hope en Montana, Estados Unidos. Los jugadores asumen el papel de un alguacil novato que debe luchar contra una secta violenta que ha tomado el control del condado.",
+        "requirements": {
+            "processor": "Intel Core i5-2400 / AMD FX-6300",
+            "memory": "8 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 670 / AMD R9 270",
+            "storage": "40 GB available space"
+        }
     },
     {
         "id": 30,
@@ -263,23 +445,27 @@
         "category": "Action",
         "price": 39.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/412020/header.jpg",
-        "description": "Metro Exodus es un juego de disparos en primera persona desarrollado por 4A Games. Lanzado en febrero de 2019 para PlayStation 4, Xbox One y Microsoft Windows, es la tercera entrega de la serie Metro y sigue al protagonista Artyom mientras viaja por Rusia en busca de un nuevo hogar lejos de los túneles del metro de Moscú."
+        "description": "Metro Exodus es un juego de disparos en primera persona desarrollado por 4A Games. Lanzado en febrero de 2019 para PlayStation 4, Xbox One y Microsoft Windows, es la tercera entrega de la serie Metro y sigue al protagonista Artyom mientras viaja por Rusia en busca de un nuevo hogar lejos de los túneles del metro de Moscú.",
+        "requirements": {
+            "processor": "Intel Core i5-4440 / AMD FX-8370",
+            "memory": "8 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 670 / AMD Radeon HD 7870",
+            "storage": "59 GB available space"
+        }
     },
-
-
-
-
-
-
-
-
     {
         "id": 31,
         "title": "Monster Hunter: World",
         "category": "Action",
         "price": 29.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/582010/header.jpg",
-        "description": "Embárcate en una aventura épica en un mundo lleno de monstruos gigantes. Conviértete en un cazador experto y desafía a criaturas colosales en un vasto y hermoso mundo lleno de peligros y maravillas."
+        "description": "Embárcate en una aventura épica en un mundo lleno de monstruos gigantes. Conviértete en un cazador experto y desafía a criaturas colosales en un vasto y hermoso mundo lleno de peligros y maravillas.",
+        "requirements": {
+            "processor": "Intel Core i5-4460 / AMD FX-6300",
+            "memory": "8 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 760 / AMD Radeon R7 260x",
+            "storage": "48 GB available space"
+        }
     },
     {
         "id": 32,
@@ -287,7 +473,13 @@
         "category": "Action",
         "price": 39.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1888930/header.jpg?t=1705640438",
-        "description": "Únete a Joel y Ellie en un viaje desgarrador a través de un mundo postapocalíptico donde la humanidad ha sido devastada por una infección que convierte a las personas en criaturas salvajes. ¿Podrás sobrevivir?"
+        "description": "Únete a Joel y Ellie en un viaje desgarrador a través de un mundo postapocalíptico donde la humanidad ha sido devastada por una infección que convierte a las personas en criaturas salvajes. ¿Podrás sobrevivir?",
+        "requirements": {
+            "processor": "Intel Core i5-2500 / AMD FX-6350",
+            "memory": "4 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 660 / AMD Radeon HD 7870",
+            "storage": "50 GB available space"
+        }
     },
     {
         "id": 33,
@@ -295,7 +487,13 @@
         "category": "Action",
         "price": 39.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/750920/header.jpg",
-        "description": "Acompaña a Lara Croft en su aventura más oscura y peligrosa hasta la fecha. Explora selvas mortales, descubre tumbas antiguas y lucha contra una organización mortal mientras intentas salvar al mundo de un apocalipsis maya."
+        "description": "Acompaña a Lara Croft en su aventura más oscura y peligrosa hasta la fecha. Explora selvas mortales, descubre tumbas antiguas y lucha contra una organización mortal mientras intentas salvar al mundo de un apocalipsis maya.",
+        "requirements": {
+            "processor": "Intel Core i3-3220 / AMD equivalent",
+            "memory": "8 GB RAM",
+            "graphics": "NVIDIA GTX 660 / GTX 1050 / AMD Radeon HD 7770",
+            "storage": "40 GB available space"
+        }
     },
     {
         "id": 34,
@@ -303,15 +501,32 @@
         "category": "Action",
         "price": 19.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/208650/header.jpg",
-        "description": "Vuelve al papel del Caballero Oscuro en la conclusión épica de la trilogía de Arkham. Enfrenta a los peores villanos de Gotham mientras luchas contra el misterioso Arkham Knight y su ejército."
+        "description": "Vuelve al papel del Caballero Oscuro en la conclusión épica de la trilogía de Arkham. Enfrenta a los peores villanos de Gotham mientras luchas contra el misterioso Arkham Knight y su ejército.",
+        "requirements": {
+            "processor": "Intel Core i5-750 / AMD Phenom II X4 965",
+            "memory": "6 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 660 / AMD Radeon HD 7950",
+            "storage": "45 GB available space"
+        }
     },
+
+
+
+
+
     {
         "id": 35,
         "title": "Dark Souls Remastered",
         "category": "Action",
         "price": 39.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570940/header.jpg",
-        "description": "Prepárate para morir una y otra vez en este desafiante juego de rol de acción. Explora un mundo oscuro y peligroso lleno de monstruos, trampas mortales y jefes imponentes en tu búsqueda para enlazar el fuego."
+        "description": "Prepárate para morir una y otra vez en este desafiante juego de rol de acción. Explora un mundo oscuro y peligroso lleno de monstruos, trampas mortales y jefes imponentes en tu búsqueda para enlazar el fuego.",
+        "requirements": {
+            "processor": "Intel Core i5-2300 / AMD A8-7600",
+            "memory": "8 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 465 / ATI Radeon HD 6870",
+            "storage": "8 GB available space"
+        }
     },
     {
         "id": 36,
@@ -319,7 +534,13 @@
         "category": "Action",
         "price": 59.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/870780/header.jpg",
-        "description": "Sumérgete en un mundo surrealista de poderes sobrenaturales y secretos oscuros. Toma el control de Jesse Faden mientras explora la Agencia Federal de Control y lucha contra una fuerza misteriosa conocida como el Hiss."
+        "description": "Sumérgete en un mundo surrealista de poderes sobrenaturales y secretos oscuros. Toma el control de Jesse Faden mientras explora la Agencia Federal de Control y lucha contra una fuerza misteriosa conocida como el Hiss.",
+        "requirements": {
+            "processor": "Intel Core i5-4690 / AMD FX 4350",
+            "memory": "8 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 780 / AMD Radeon R9 280X",
+            "storage": "42 GB available space"
+        }
     },
     {
         "id": 37,
@@ -327,7 +548,13 @@
         "category": "Action",
         "price": 59.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1659040/header.jpg?t=1713343444",
-        "description": "Conviértete en el Agente 47 y completa tu trilogía de asesinatos en este emocionante juego de sigilo y acción. Viaja por todo el mundo y elimina a tus objetivos utilizando tu ingenio, habilidades y una amplia gama de disfraces."
+        "description": "Conviértete en el Agente 47 y completa tu trilogía de asesinatos en este emocionante juego de sigilo y acción. Viaja por todo el mundo y elimina a tus objetivos utilizando tu ingenio, habilidades y una amplia gama de disfraces.",
+        "requirements": {
+            "processor": "Intel Core i5-2500K / AMD Phenom II X4 940",
+            "memory": "8 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 660 / AMD Radeon HD 7870",
+            "storage": "80 GB available space"
+        }
     },
     {
         "id": 38,
@@ -335,7 +562,13 @@
         "category": "Action",
         "price": 49.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2239550/header.jpg?t=1692817793",
-        "description": "Adéntrate en un Londres distópico donde la tecnología lo es todo y la libertad es un lujo. Forma tu propio equipo de hackers y rebeldes mientras luchas contra un régimen opresivo y descubres la verdad detrás de una conspiración masiva."
+        "description": "Adéntrate en un Londres distópico donde la tecnología lo es todo y la libertad es un lujo. Forma tu propio equipo de hackers y rebeldes mientras luchas contra un régimen opresivo y descubres la verdad detrás de una conspiración masiva.",
+        "requirements": {
+            "processor": "Intel Core i5-4460 / AMD Ryzen 5 1400",
+            "memory": "8 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 970 / AMD Radeon RX 5500 XT",
+            "storage": "45 GB available space"
+        }
     },
     {
         "id": 39,
@@ -343,7 +576,13 @@
         "category": "Terror",
         "price": 19.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/238320/header.jpg",
-        "description": "Explora un hospital psiquiátrico abandonado y descubre los horrores que acechan en sus sombras. Con una cámara como tu única herramienta, deberás escapar de criaturas monstruosas y sobrevivir a los terrores que acechan en cada esquina."
+        "description": "Explora un hospital psiquiátrico abandonado y descubre los horrores que acechan en sus sombras. Con una cámara como tu única herramienta, deberás escapar de criaturas monstruosas y sobrevivir a los terrores que acechan en cada esquina.",
+        "requirements": {
+            "processor": "Intel Core i3-530",
+            "memory": "4 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 260 / ATI Radeon HD 4870",
+            "storage": "5 GB available space"
+        }
     },
     {
         "id": 40,
@@ -351,7 +590,13 @@
         "category": "Terror",
         "price": 39.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/214490/header.jpg",
-        "description": "Vive una experiencia aterradora en el universo de Alien mientras te enfrentas a la criatura más letal del espacio. Escóndete, corre y lucha por tu vida mientras intentas sobrevivir a bordo de una estación espacial infestada por el xenomorfo."
+        "description": "Vive una experiencia aterradora en el universo de Alien mientras te enfrentas a la criatura más letal del espacio. Escóndete, corre y lucha por tu vida mientras intentas sobrevivir a bordo de una estación espacial infestada por el xenomorfo.",
+        "requirements": {
+            "processor": "Intel Core i5-2550K / AMD FX 8320",
+            "memory": "8 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 660 / AMD Radeon HD 7950",
+            "storage": "35 GB available space"
+        }
     },
     {
         "id": 41,
@@ -359,47 +604,40 @@
         "category": "Terror",
         "price": 29.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/999220/header.jpg",
-        "description": "Despierta en un desierto desolado sin ningún recuerdo de quién eres o cómo llegaste allí. Enfréntate a tus peores miedos mientras te aventuras en un viaje aterrador para descubrir la verdad detrás de tu pasado y tu destino."
+        "description": "Despierta en un desierto desolado sin ningún recuerdo de quién eres o cómo llegaste allí. Enfréntate a tus peores miedos mientras te aventuras en un viaje aterrador para descubrir la verdad detrás de tu pasado y tu destino.",
+        "requirements": {
+            "processor": "Intel Core i3 / AMD equivalent",
+            "memory": "4 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 460 / AMD Radeon HD 5770",
+            "storage": "35 GB available space"
+        }
     },
-    {
-        "id": 42,
-        "title": "Dead by Daylight",
-        "category": "Terror",
-        "price": 19.99,
-        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/381210/header.jpg",
-        "description": "Dead by Daylight es un juego de terror multijugador asimétrico en el que un jugador asume el papel del asesino despiadado y los otros cuatro jugadores juegan como supervivientes tratando de escapar del asesino y evitar ser capturados, torturados y asesinados."
-    },
-    {
-        "id": 43,
-        "title": "Layers of Fear",
-        "category": "Terror",
-        "price": 19.99,
-        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/391720/header.jpg",
-        "description": "Layers of Fear es un juego de terror psicológico en el que te adentras en la mente perturbada de un pintor mientras intentas completar su obra maestra. Pero ten cuidado, cada capa que descubras revelará nuevos horrores y secretos inquietantes."
-    },
-    {
-        "id": 44,
-        "title": "Resident Evil 0",
-        "category": "Terror",
-        "price": 19.99,
-        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/339340/header.jpg",
-        "description": "Resident Evil 0 te lleva de vuelta a los orígenes del horror de supervivencia. Únete a Rebecca Chambers y Billy Coen mientras investigan los oscuros secretos de Umbrella Corporation y luchan contra hordas de horrores biológicos en una mansión abandonada."
-    },
-    {
-        "id": 45,
-        "title": "Far Cry",
-        "category": "Action",
-        "price": 9.99,
-        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/13520/header.jpg",
-        "description": "Far Cry te lleva a una isla tropical llena de peligros y enemigos mortales. Lucha por la supervivencia mientras te enfrentas a mercenarios, criaturas salvajes y un dictador despiadado en una experiencia de mundo abierto llena de acción y aventura."
-    },
+
+
+
+
+
+
+
+
+
+
+
+
+
     {
         "id": 46,
         "title": "Far Cry 2",
         "category": "Action",
         "price": 9.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/19900/header.jpg",
-        "description": "Far Cry 2 te sumerge en un conflicto brutal en una África desgarrada por la guerra. Conviértete en un mercenario solitario y lucha por la supervivencia en un mundo abierto dinámico lleno de peligros y decisiones morales difíciles."
+        "description": "Far Cry 2 te sumerge en un conflicto brutal en una África desgarrada por la guerra. Conviértete en un mercenario solitario y lucha por la supervivencia en un mundo abierto dinámico lleno de peligros y decisiones morales difíciles.",
+        "requirements": {
+            "processor": "Pentium 4 3.2 Ghz, Pentium D 2.66 Ghz, AMD Athlon 64 3500+ o superior",
+            "memory": "1 GB RAM",
+            "graphics": "NVIDIA 6800 o ATI X1650 o superior con Shader Model 3.0 y 256 MB de VRAM",
+            "storage": "12 GB available space"
+        }
     },
     {
         "id": 47,
@@ -407,7 +645,13 @@
         "category": "Action",
         "price": 19.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/220240/header.jpg",
-        "description": "Far Cry 3 te lleva a una isla paradisíaca convertida en un infierno de violencia y locura. Lucha contra una banda de piratas despiadados y descubre los secretos oscuros de la isla mientras luchas por sobrevivir y rescatar a tus amigos."
+        "description": "Far Cry 3 te lleva a una isla paradisíaca convertida en un infierno de violencia y locura. Lucha contra una banda de piratas despiadados y descubre los secretos oscuros de la isla mientras luchas por sobrevivir y rescatar a tus amigos.",
+        "requirements": {
+            "processor": "Intel Core2 Duo E6700 / AMD Athlon64 X2 6000+ o superior",
+            "memory": "4 GB RAM",
+            "graphics": "NVIDIA GTX8800 / AMD Radeon HD2900 o superior con 512 MB de VRAM",
+            "storage": "15 GB available space"
+        }
     },
     {
         "id": 48,
@@ -415,7 +659,13 @@
         "category": "Action",
         "price": 14.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/233270/header.jpg",
-        "description": "Far Cry 3: Blood Dragon es una experiencia de acción retrofuturista llena de humor y homenajes a los clásicos de los años 80. Únete al sargento Rex Power Colt y lucha contra un ejército de cyborgs en un mundo lleno de neón y explosiones."
+        "description": "Far Cry 3: Blood Dragon es una experiencia de acción retrofuturista llena de humor y homenajes a los clásicos de los años 80. Únete al sargento Rex Power Colt y lucha contra un ejército de cyborgs en un mundo lleno de neón y explosiones.",
+        "requirements": {
+            "processor": "Intel Core2 Duo E6700 / AMD Athlon64 X2 6000+ o superior",
+            "memory": "3 GB RAM",
+            "graphics": "512 MB DirectX 9.0c-compliant card with Shader Model 3.0 or higher (NVIDIA GeForce 8 series / AMD Radeon HD4000 series)",
+            "storage": "3 GB available space"
+        }
     },
     {
         "id": 49,
@@ -423,7 +673,13 @@
         "category": "Action",
         "price": 29.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/298110/header.jpg",
-        "description": "Far Cry 4 te lleva a la región montañosa de Kyrat, donde te enfrentarás al despiadado dictador Pagan Min. Explora un mundo abierto lleno de peligros y maravillas mientras luchas por liberar a la gente de Kyrat de la opresión de Min."
+        "description": "Far Cry 4 te lleva a la región montañosa de Kyrat, donde te enfrentarás al despiadado dictador Pagan Min. Explora un mundo abierto lleno de peligros y maravillas mientras luchas por liberar a la gente de Kyrat de la opresión de Min.",
+        "requirements": {
+            "processor": "Intel Core i5-750 / AMD Phenom II X4 955 o superior",
+            "memory": "4 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 460 / AMD Radeon HD5850 o superior con 1 GB de VRAM",
+            "storage": "30 GB available space"
+        }
     },
     {
         "id": 50,
@@ -431,15 +687,32 @@
         "category": "Action",
         "price": 29.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/371660/header.jpg",
-        "description": "Far Cry Primal te lleva de vuelta a la Edad de Piedra, donde te convertirás en el primer cazador de la historia humana. Domina la naturaleza salvaje, lucha contra bestias feroces y lidera tu tribu hacia la grandeza en este juego de acción prehistórica."
+        "description": "Far Cry Primal te lleva de vuelta a la Edad de Piedra, donde te convertirás en el primer cazador de la historia humana. Domina la naturaleza salvaje, lucha contra bestias feroces y lidera tu tribu hacia la grandeza en este juego de acción prehistórica.",
+        "requirements": {
+            "processor": "Intel Core i3-550 / AMD Phenom II X4 955 o superior",
+            "memory": "4 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 460 / AMD Radeon HD 5770 o superior con 1 GB de VRAM",
+            "storage": "20 GB available space"
+        }
     },
+
+
+
+
+
     {
         "id": 51,
         "title": "Far Cry 5",
         "category": "Action",
         "price": 49.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/552520/header.jpg",
-        "description": "Far Cry 5 te lleva a Montana, Estados Unidos, donde te enfrentarás a la secta fanática conocida como El Proyecto de la Puerta del Edén. Únete a la resistencia y lucha contra el culto en un mundo abierto lleno de acción y caos."
+        "description": "Far Cry 5 te lleva a Montana, Estados Unidos, donde te enfrentarás a la secta fanática conocida como El Proyecto de la Puerta del Edén. Únete a la resistencia y lucha contra el culto en un mundo abierto lleno de acción y caos.",
+        "requirements": {
+            "processor": "Intel Core i5-2400 / AMD FX-6300",
+            "memory": "8 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 670 / AMD R9 270 (2GB VRAM with Shader Model 5.0 or better)",
+            "storage": "30 GB available space"
+        }
     },
     {
         "id": 52,
@@ -447,17 +720,27 @@
         "category": "Action",
         "price": 39.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/939960/header.jpg",
-        "description": "Far Cry New Dawn es una secuela directa de Far Cry 5 que te lleva a un mundo postapocalíptico lleno de color y peligro. Lucha contra las pandillas de saqueadores, explora las ruinas del viejo mundo y forja un nuevo futuro para la humanidad."
-    }, 
-    
-    
+        "description": "Far Cry New Dawn es una secuela directa de Far Cry 5 que te lleva a un mundo postapocalíptico lleno de color y peligro. Lucha contra las pandillas de saqueadores, explora las ruinas del viejo mundo y forja un nuevo futuro para la humanidad.",
+        "requirements": {
+            "processor": "Intel Core i5 2400 / AMD FX 6350",
+            "memory": "8 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 670 / AMD R9 270 (2GB VRAM with Shader Model 5.0 or better)",
+            "storage": "30 GB available space"
+        }
+    },
     {
         "id": 53,
         "title": "Little Nightmares",
         "category": "Terror",
         "price": 19.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/424840/header.jpg",
-        "description": "Little Nightmares es un juego de aventuras y puzles en el que te enfrentas a los miedos de tu infancia. Ayuda a Six a escapar de Las Fauces, un misterioso navío habitado por almas corrompidas en busca de su próxima comida."
+        "description": "Little Nightmares es un juego de aventuras y puzles en el que te enfrentas a los miedos de tu infancia. Ayuda a Six a escapar de Las Fauces, un misterioso navío habitado por almas corrompidas en busca de su próxima comida.",
+        "requirements": {
+            "processor": "Intel CPU Core i3",
+            "memory": "4 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 460 / AMD Radeon HD 5770 / Intel HD Graphics 4000",
+            "storage": "10 GB available space"
+        }
     },
     {
         "id": 54,
@@ -465,7 +748,13 @@
         "category": "Terror",
         "price": 29.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/414700/header.jpg",
-        "description": "Outlast 2 es la continuación del aclamado juego de terror survival Outlast. En este nuevo título, te adentras en el corazón de la oscuridad mientras exploras un pueblo rural y enfrentas tus peores pesadillas."
+        "description": "Outlast 2 es la continuación del aclamado juego de terror survival Outlast. En este nuevo título, te adentras en el corazón de la oscuridad mientras exploras un pueblo rural y enfrentas tus peores pesadillas.",
+        "requirements": {
+            "processor": "Intel Core i3-530",
+            "memory": "4 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 260 / ATI Radeon HD 4870 / Intel HD 3000",
+            "storage": "30 GB available space"
+        }
     },
     {
         "id": 55,
@@ -473,7 +762,13 @@
         "category": "Terror",
         "price": 19.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/17470/header.jpg",
-        "description": "Dead Space es un juego de terror en tercera persona que te sumerge en una atmósfera claustrofóbica y llena de tensión. Encarna a Isaac Clarke mientras luchas por sobrevivir en una nave infestada de criaturas grotescas y retorcidas."
+        "description": "Dead Space es un juego de terror en tercera persona que te sumerge en una atmósfera claustrofóbica y llena de tensión. Encarna a Isaac Clarke mientras luchas por sobrevivir en una nave infestada de criaturas grotescas y retorcidas.",
+        "requirements": {
+            "processor": "Pentium 4 2.8 GHz / AMD Athlon 64 3000+",
+            "memory": "1 GB RAM (XP), 2 GB RAM (Vista)",
+            "graphics": "NVIDIA GeForce 6800 / ATI X1600 Pro (256 MB VRAM con Shader Model 3.0)",
+            "storage": "7 GB available space"
+        }
     },
     {
         "id": 56,
@@ -481,7 +776,13 @@
         "category": "Terror",
         "price": 19.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/57300/header.jpg",
-        "description": "Amnesia: The Dark Descent te lleva a un viaje a lo desconocido mientras te enfrentas a tus miedos más profundos. Explora un oscuro castillo y descubre los horrores que acechan en sus profundidades mientras luchas por mantener la cordura."
+        "description": "Amnesia: The Dark Descent te lleva a un viaje a lo desconocido mientras te enfrentas a tus miedos más profundos. Explora un oscuro castillo y descubre los horrores que acechan en sus profundidades mientras luchas por mantener la cordura.",
+        "requirements": {
+            "processor": "2.0 GHz",
+            "memory": "2 GB RAM",
+            "graphics": "Radeon X1000/GF 6 - Integrated graphics and very low budget cards might not work.",
+            "storage": "3 GB available space"
+        }
     },
     {
         "id": 57,
@@ -489,8 +790,18 @@
         "category": "Terror",
         "price": 29.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/282140/header.jpg",
-        "description": "Soma es una experiencia de terror psicológico que te sumerge en un mundo distópico y lleno de misterios. Descubre los secretos ocultos en las profundidades del océano mientras luchas por sobrevivir y mantener tu humanidad en un entorno cada vez más alienante."
+        "description": "Soma es una experiencia de terror psicológico que te sumerge en un mundo distópico y lleno de misterios. Descubre los secretos ocultos en las profundidades del océano mientras luchas por sobrevivir y mantener tu humanidad en un entorno cada vez más alienante.",
+        "requirements": {
+            "processor": "Core i3 / AMD A6 2.4Ghz",
+            "memory": "4 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 260 / ATI Radeon HD 5750. OpenGL 3.3 compliant video card.",
+            "storage": "25 GB available space"
+        }
     },
+
+
+
+
     {
         "id": 58,
         "title": "The Evil Within",
@@ -499,22 +810,38 @@
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/268050/header.jpg",
         "description": "The Evil Within te lleva a un viaje a través de la locura y el horror mientras te enfrentas a criaturas horripilantes y pesadillas retorcidas. Descubre los secretos oscuros que acechan en las sombras y lucha por tu supervivencia en este juego de terror visceral."
     },
-    {
+
+
+
+
+
+ {
         "id": 59,
         "title": "Alan Wake",
         "category": "Terror",
         "price": 14.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/108710/header.jpg",
-        "description": "Alan Wake es un thriller psicológico que te sumerge en una historia de misterio y oscuridad. Descubre los secretos ocultos en el pueblo de Bright Falls mientras luchas contra fuerzas sobrenaturales y te enfrentas a tus propios demonios internos."
+        "description": "Alan Wake es un thriller psicológico que te sumerge en una historia de misterio y oscuridad. Descubre los secretos ocultos en el pueblo de Bright Falls mientras luchas contra fuerzas sobrenaturales y te enfrentas a tus propios demonios internos.",
+        "requirements": {
+            "processor": "Intel Core 2 Duo 2GHz / AMD Athlon X2 4200+",
+            "memory": "2 GB RAM",
+            "graphics": "NVIDIA GeForce 7600 / ATI Radeon HD 2600 / Intel HD Graphics 2000",
+            "storage": "8 GB available space"
+        }
     },
-
-   {
+    {
         "id": 60,
         "title": "GreedFall",
         "category": "RPG",
         "price": 49.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/606880/header.jpg",
-        "description": "GreedFall es un RPG de acción que te sumerge en un mundo de fantasía inspirado en el siglo XVII. Explora un continente recién descubierto lleno de magia, intriga política y peligrosas criaturas mientras forjas tu propio destino y desentrañas los misterios de la isla de Teer Fradee."
+        "description": "GreedFall es un RPG de acción que te sumerge en un mundo de fantasía inspirado en el siglo XVII. Explora un continente recién descubierto lleno de magia, intriga política y peligrosas criaturas mientras forjas tu propio destino y desentrañas los misterios de la isla de Teer Fradee.",
+        "requirements": {
+            "processor": "Intel Core i5-3450 / AMD FX-6300",
+            "memory": "8 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 660 / AMD Radeon HD 7870",
+            "storage": "25 GB available space"
+        }
     },
     {
         "id": 61,
@@ -522,7 +849,13 @@
         "category": "RPG",
         "price": 39.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/373420/header.jpg",
-        "description": "Divinity: Original Sin es un RPG de mundo abierto que te permite explorar un vasto y vibrante mundo lleno de aventuras y peligros. Controla a un dúo de héroes únicos mientras desentrañas misterios, completas misiones y luchas contra criaturas malévolas en una búsqueda para salvar el mundo de Rivellon."
+        "description": "Divinity: Original Sin es un RPG de mundo abierto que te permite explorar un vasto y vibrante mundo lleno de aventuras y peligros. Controla a un dúo de héroes únicos mientras desentrañas misterios, completas misiones y luchas contra criaturas malévolas en una búsqueda para salvar el mundo de Rivellon.",
+        "requirements": {
+            "processor": "Intel Core 2 Duo E8500 / AMD Phenom II X3 720",
+            "memory": "4 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 550 / ATI Radeon HD 6XXX",
+            "storage": "10 GB available space"
+        }
     },
     {
         "id": 62,
@@ -530,7 +863,13 @@
         "category": "RPG",
         "price": 39.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/524220/header.jpg",
-        "description": "NieR: Automata es un RPG de acción que te lleva a un mundo postapocalíptico donde la humanidad lucha por sobrevivir contra una invasión de máquinas. Controla a los androides de combate 2B, 9S y A2 en una emocionante aventura llena de giros inesperados, combates intensos y una historia emocionalmente resonante."
+        "description": "NieR: Automata es un RPG de acción que te lleva a un mundo postapocalíptico donde la humanidad lucha por sobrevivir contra una invasión de máquinas. Controla a los androides de combate 2B, 9S y A2 en una emocionante aventura llena de giros inesperados, combates intensos y una historia emocionalmente resonante.",
+        "requirements": {
+            "processor": "Intel Core i3-2100 / AMD A8-6500",
+            "memory": "4 GB RAM",
+            "graphics": "NVIDIA GeForce GTX 770 / AMD Radeon R9 270X",
+            "storage": "50 GB available space"
+        }
     },
     {
         "id": 63,
@@ -538,7 +877,13 @@
         "category": "RPG",
         "price": 29.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/102500/header.jpg",
-        "description": "Kingdoms of Amalur: Reckoning es un RPG de acción que te sumerge en un mundo de fantasía épica lleno de magia, combate y aventura. Forja tu destino mientras exploras un vasto mundo abierto, completas misiones épicas y luchas contra enemigos poderosos en tu búsqueda para cambiar el destino de Amalur."
+        "description": "Kingdoms of Amalur: Reckoning es un RPG de acción que te sumerge en un mundo de fantasía épica lleno de magia, combate y aventura. Forja tu destino mientras exploras un vasto mundo abierto, completas misiones épicas y luchas contra enemigos poderosos en tu búsqueda para cambiar el destino de Amalur.",
+        "requirements": {
+            "processor": "Intel Core2 Duo (or equivalent) running at 2.2GHz",
+            "memory": "1 GB RAM (XP), 2 GB RAM (Vista/Win 7)",
+            "graphics": "NVIDIA GeForce 8800 / AMD Radeon HD 2900 XT",
+            "storage": "10.5 GB available space"
+        }
     },
     {
         "id": 64,
@@ -546,14 +891,29 @@
         "category": "RPG",
         "price": 49.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/578650/header.jpg",
-        "description": "The Outer Worlds es un RPG de acción que te lleva a un viaje a través de un sistema solar distante lleno de colonias fronterizas, corporaciones codiciosas y conspiraciones mortales. Explora un mundo vibrante y repleto de personajes memorables mientras tomas decisiones que afectarán el destino de la colonia Halcyon."
+        "description": "The Outer Worlds es un RPG de acción que te lleva a un viaje a través de un sistema solar distante lleno de colonias fronterizas, corporaciones codiciosas y conspiraciones mortales. Explora un mundo vibrante y repleto de personajes memorables mientras tomas decisiones que afectarán el destino de la colonia Halcyon.",
+        "requirements": {
+            "processor": "Intel Core i3-3225 / AMD Phenom II X6 1100T",
+            "memory": "4 GB RAM",
+            "graphics": "NVIDIA GTX 650 Ti / AMD HD 7850",
+            "storage": "40 GB available space"
+        }
     },
+
+
+
     {
         "id": 65,
         "title": "Pillars of Eternity II: Deadfire",
         "category": "RPG",
         "price": 39.99,
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/560130/header.jpg",
-        "description": "Pillars of Eternity II: Deadfire es un RPG de rol que te sumerge en un mundo de piratas, misterio y magia. Navega por las peligrosas aguas del archipiélago Deadfire mientras exploras islas exóticas, te enfrentas a criaturas legendarias y forjas tu propio destino como el Capitán de tu propio barco."
+        "description": "Pillars of Eternity II: Deadfire es un RPG de rol que te sumerge en un mundo de piratas, misterio y magia. Navega por las peligrosas aguas del archipiélago Deadfire mientras exploras islas exóticas, te enfrentas a criaturas legendarias y forjas tu propio destino como el Capitán de tu propio barco.",
+        "requirements": {
+            "processor": "Intel Core i3 o equivalente",
+            "memory": "4 GB de RAM",
+            "graphics": "Tarjeta gráfica compatible con DirectX 11",
+            "storage": "45 GB de espacio disponible"
+        }
     }
 ]

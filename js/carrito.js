@@ -167,6 +167,53 @@ document.addEventListener('DOMContentLoaded', () => {
     updateCart();
 });
 
+function solicitarTarjeta() {
+    document.getElementById("credit-card-form").style.display = "block";
+}
+
+document.getElementById("credit-card-info").addEventListener("submit", function(event) {
+    event.preventDefault();
+    var formData = new FormData(this);
+    if (validarCampos(formData)) {
+        var tarjetaCredito = {
+            "Número de Tarjeta": formData.get("card-number"),
+            "Titular de la Tarjeta": formData.get("card-holder"),
+            "Fecha de Vencimiento": formData.get("expiry-date"),
+            "Código de Seguridad": formData.get("security-code")
+        };
+        procesarCompra(tarjetaCredito);
+    } else {
+        alert("Por favor, complete todos los campos del formulario de tarjeta de crédito.");
+    }
+});
+
+function validarCampos(formData) {
+    var cardNumber = formData.get("card-number");
+    var cardHolder = formData.get("card-holder");
+    var expiryDate = formData.get("expiry-date");
+    var securityCode = formData.get("security-code");
+    return cardNumber && cardHolder && expiryDate && securityCode;
+}
+
+function procesarCompra(tarjetaCredito) {
+    alert("Compra procesada con éxito con la siguiente información de tarjeta de crédito:\n\n" +
+          "Número de Tarjeta: " + tarjetaCredito["Número de Tarjeta"] + "\n" +
+          "Titular de la Tarjeta: " + tarjetaCredito["Titular de la Tarjeta"] + "\n" +
+          "Fecha de Vencimiento: " + tarjetaCredito["Fecha de Vencimiento"] + "\n" +
+          "Código de Seguridad: " + tarjetaCredito["Código de Seguridad"]);
+    limpiarCarrito();
+}
+
+function limpiarCarrito() {
+    // Aquí puedes agregar la lógica para limpiar el carrito después de la compra
+    var carrito = document.getElementById("cart-items");
+    carrito.innerHTML = "";
+    actualizarTotal(0);
+}
+
+function actualizarTotal(total) {
+    document.getElementById("total-amount").textContent = total.toFixed(2);
+}
 
 
 
