@@ -166,3 +166,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     updateCart();
 });
+
+
+
+
+
+
