@@ -105,25 +105,3 @@ window.onload = generarCartas;
 
 
 
-
-
-
-
-
-
-
-
-   // Importa DateTime desde Luxon
-const { DateTime } = luxon;
-
-// Función para actualizar la hora cada segundo
-function actualizarHora() {
-    // Obtiene la hora actual
-    const horaActual = DateTime.now().toLocaleString(DateTime.DATETIME_FULL);
-    
-    // Actualiza el contenido del elemento HTML con la hora actual
-    document.getElementById("horaActual").textContent = horaActual;
-}
-
-// Llama a la función para actualizar la hora cada segundo
-setInterval(actualizarHora, 1000);
