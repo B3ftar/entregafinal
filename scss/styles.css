@@ -570,34 +570,112 @@ a:hover {
 
 
 
-#credit-card-form {
+#about-us {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#about-us h1 {
+  color: #ffffff;
+}
+
+#about-us h2 {
+  color: #ffffff;
   margin-top: 20px;
 }
 
-#credit-card-info label {
-  display: block;
-  margin-bottom: 5px;
+#about-us p {
+  color: #ffffff;
+  line-height: 1.6;
 }
 
-#credit-card-info input[type="text"] {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 10px;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+
+
+/* Variables para modo oscuro */
+body.dark-mode {
+  --background-color: #121212;
+  --text-color: #272727;
+  --header-background: #333333;
+  --banner-background: rgba(255, 255, 255, 0.1);
+  --button-background: #444444;
+  --button-text: #ffffff;
+  --game-card-background: #333333;
+  --game-card-text: #ffffff;
+  --game-card-shadow: rgba(255, 255, 255, 0.1);
+  --link-background: #444444;
+  --link-text: #ffffff;
+  --footer-background: #2b2b2b; /* Color de fondo del footer en modo oscuro */
+  --footer-text: #ffffff;
+  --footer-bottom-background: #3a3a3a; /* Color de fondo de la parte inferior del footer en modo oscuro */
 }
 
-#credit-card-info button[type="submit"] {
-  background-color: #3b0000;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+/* Aplicar los cambios en el modo oscuro */
+body.dark-mode {
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
-#credit-card-info button[type="submit"]:hover {
-  background-color: #c60a0a;
+body.dark-mode .header {
+  background-color: var(--header-background);
 }
+
+body.dark-mode .text-overlay {
+  color: var(--text-color);
+}
+
+body.dark-mode .nav-item a {
+  color: var(--text-color);
+}
+
+body.dark-mode .nav-item a:hover {
+  background-color: #555;
+}
+
+body.dark-mode #dark-mode-toggle {
+  background-color: var(--button-background);
+  color: var(--button-text);
+}
+
+body.dark-mode #dark-mode-toggle:hover {
+  background-color: var(--text-color);
+  color: var(--background-color);
+}
+
+body.dark-mode .game-card {
+  background-color: var(--game-card-background);
+  box-shadow: 0 0 10px var(--game-card-shadow);
+}
+
+body.dark-mode .game-title {
+  color: var(--game-card-text);
+}
+
+body.dark-mode a {
+  color: var(--link-text);
+  background-color: var(--link-background);
+}
+
+body.dark-mode a:hover {
+  background-color: #b90c00;
+}
+
+/* Footer específico para modo oscuro */
+body.dark-mode .footer {
+  background-color: var(--footer-background);
+  color: var(--footer-text);
+}
+
+body.dark-mode .footer-bottom {
+  background-color: var(--footer-bottom-background);
+}
+
+body.dark-mode .social-icons a {
+  color: var(--footer-text);
+}
+
+body.dark-mode .social-icons i:hover {
+  transform: scale(1.2); /* Ajusta el valor según lo grande que quieras que se agrande el icono */
+  color: var(--text-color); /* Cambiar color al hacer hover */
+}
+
 /*# sourceMappingURL=styles.css.map */

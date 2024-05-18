@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo de Juegos</title>
     <link rel="stylesheet" href="../scss/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body> 
     <header class="header">
@@ -15,32 +16,23 @@
           <ul class="nav-list">
             <li class="nav-item"><a href="/index.html">Inicio</a></li>
             <li class="nav-item"><a href="catalogo.html">Juegos</a></li>
-            <li class="nav-item"><a href="#">Acerca de</a></li>
+            <li class="nav-item"><a href="acercade.html">Acerca de</a></li>
           </ul>
         </nav>
+        <button id="dark-mode-toggle">Modo Oscuro</button>
       </header>
    
         <h1>Catálogo de Juegos</h1>
    
         <main>
-            <div id="cart">
+            <aside id="cart">
                 <h2>Carrito de Compras</h2>
                 <ul id="cart-items"></ul>
                 <p>Total: $<span id="total-amount">0.00</span></p>
                 <button id="clear-cart-button" onclick="limpiarCarrito()">Vaciar Carrito</button>
-
-                <div id="credit-card-form">
-                    <form id="credit-card-info" onsubmit="return validarFormulario()">
-                        <label for="card-number">Número de Tarjeta:</label>
-                        <input type="text" id="card-number" name="card-number" required pattern="[0-9]{16}" title="El número de tarjeta debe contener exactamente 16 dígitos numéricos" placeholder="1234567890123456">
-                        <label for="card-holder">Titular de la Tarjeta:</label>
-                        <input type="text" id="card-holder" name="card-holder" required>
-                        <label for="expiry-date">Fecha de Vencimiento:</label>
-                        <input type="text" id="expiry-date" name="expiry-date" required pattern="(0[1-9]|1[0-2])\/[0-9]{2}" title="El formato debe ser MM/YY" placeholder="MM/YY">
-                        <label for="security-code">Código de Seguridad:</label>
-                        <input type="text" id="security-code" name="security-code" required pattern="[0-9]{3}" title="El código de seguridad debe contener exactamente 3 dígitos numéricos" placeholder="123">
-                        <button id="confirm-purchase-button" type="submit">Confirmar Compra</button>
-
+                <button id="buy-button" onclick="realizarCompra()">Comprar</button>
+            </aside>
+              
                     </form>
                     <script>
 function validarFormulario() {
@@ -75,7 +67,7 @@ function validarFormulario() {
             <div class="wrapper">
                 <div class="footer-content">
                     <h3>Contacto</h3>
-                    <p>Correo electrónico: info@tupagina.com</p>
+                    <p>Correo electrónico: paginadejuegos.com</p>
                     <p>Teléfono: 123-456-7890</p>
                 </div>
                 <div class="footer-content">
@@ -88,9 +80,9 @@ function validarFormulario() {
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Tu Página de Juegos. Todos los derechos reservados.</p>
+                <p>&copy; 2024 Página de Juegos. Todos los derechos reservados.</p>
             </div>
-        </footer>
+          </footer>
         
     <script src="../js/carrito.js"></script>
 </body>
