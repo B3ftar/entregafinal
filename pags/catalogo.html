@@ -22,54 +22,76 @@
    
         <h1>Catálogo de Juegos</h1>
    
-    <main>
-        <div id="cart">
-            <h2>Carrito de Compras</h2>
-            <ul id="cart-items"></ul>
-            <p>Total: $<span id="total-amount">0.00</span></p>
-            <button id="buy-button">Comprar</button>
-        </div>
+        <main>
+            <div id="cart">
+                <h2>Carrito de Compras</h2>
+                <ul id="cart-items"></ul>
+                <p>Total: $<span id="total-amount">0.00</span></p>
+                <button id="clear-cart-button" onclick="limpiarCarrito()">Vaciar Carrito</button>
 
+                <div id="credit-card-form">
+                    <form id="credit-card-info" onsubmit="return validarFormulario()">
+                        <label for="card-number">Número de Tarjeta:</label>
+                        <input type="text" id="card-number" name="card-number" required pattern="[0-9]{16}" title="El número de tarjeta debe contener exactamente 16 dígitos numéricos" placeholder="1234567890123456">
+                        <label for="card-holder">Titular de la Tarjeta:</label>
+                        <input type="text" id="card-holder" name="card-holder" required>
+                        <label for="expiry-date">Fecha de Vencimiento:</label>
+                        <input type="text" id="expiry-date" name="expiry-date" required pattern="(0[1-9]|1[0-2])\/[0-9]{2}" title="El formato debe ser MM/YY" placeholder="MM/YY">
+                        <label for="security-code">Código de Seguridad:</label>
+                        <input type="text" id="security-code" name="security-code" required pattern="[0-9]{3}" title="El código de seguridad debe contener exactamente 3 dígitos numéricos" placeholder="123">
+                        <button id="confirm-purchase-button" type="submit">Confirmar Compra</button>
 
+                    </form>
+                    <script>
+function validarFormulario() {
+    // Verificar si el carrito está vacío
+    if (cart.length === 0) {
+        alert('El carrito está vacío. Añade algunos juegos antes de comprar.');
+        return false; // Evitar el envío del formulario
+    }
 
+    // Validar otros campos del formulario si es necesario
 
-        <div id="search-container">
-            <input type="text" id="searchInput" placeholder="Buscar por título...">
-            <select id="categoryFilter">
-                <option value="">Mostrar Todos</option>
-                <option value="RPG">RPG</option>
-                <option value="Action">Acción</option>
-                <option value="Terror">Terror</option>
-            </select>
-        </div>
+    return true; // Permitir el envío del formulario si todo está correcto
+}
+</script>
+                </div>
+            </div>
+    
+            <div id="search-container">
+                <input type="text" id="searchInput" placeholder="Buscar por título...">
+                <select id="categoryFilter">
+                    <option value="">Mostrar Todos</option>
+                    <option value="RPG">RPG</option>
+                    <option value="Action">Acción</option>
+                    <option value="Terror">Terror</option>
+                </select>
+            </div>
+    
+            <div id="game-list" class="flex-container"></div>
+        </main>
         
-
-
-
-
-        <div id="game-list" class="flex-container"></div>
-    </main>
-    <footer class="footer">
-        <div class="wrapper">
-            <div class="footer-content">
-                <h3>Contacto</h3>
-                <p>Correo electrónico: info@tupagina.com</p>
-                <p>Teléfono: 123-456-7890</p>
+        <footer class="footer">
+            <div class="wrapper">
+                <div class="footer-content">
+                    <h3>Contacto</h3>
+                    <p>Correo electrónico: info@tupagina.com</p>
+                    <p>Teléfono: 123-456-7890</p>
+                </div>
+                <div class="footer-content">
+                    <h3>Síguenos en redes sociales</h3>
+                    <ul class="social-icons">
+                        <li><a href="https://www.facebook.com/tupagina" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://www.twitter.com/tupagina" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/tupagina" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="footer-content">
-                <h3>Síguenos en redes sociales</h3>
-                <ul class="social-icons">
-                    <li><a href="https://www.facebook.com/tupagina" target="_blank"><i class="fab fa-facebook"></i></a></li>
-                    <li><a href="https://www.twitter.com/tupagina" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="https://www.instagram.com/tupagina" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                </ul>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Tu Página de Juegos. Todos los derechos reservados.</p>
             </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 Tu Página de Juegos. Todos los derechos reservados.</p>
-        </div>
-      </footer>
-      
+        </footer>
+        
     <script src="../js/carrito.js"></script>
 </body>
 </html>
