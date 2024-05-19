@@ -6,6 +6,7 @@
     <title>Catálogo de Juegos</title>
     <link rel="stylesheet" href="../scss/styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="../img/21.png" type="image/x-icon">
 </head>
 <body> 
     <header class="header">
@@ -31,26 +32,12 @@
                 <ul id="cart-items"></ul>
                 <p>Total: $<span id="total-amount">0.00</span></p>
                 <button id="clear-cart-button" onclick="limpiarCarrito()">Vaciar Carrito</button>
+
                 <button id="buy-button" onclick="realizarCompra()">Comprar</button>
             </aside>
               
                     </form>
-                    <script>
-function validarFormulario() {
-    // Verificar si el carrito está vacío
-    if (cart.length === 0) {
-        alert('El carrito está vacío. Añade algunos juegos antes de comprar.');
-        return false; // Evitar el envío del formulario
-    }
-
-    // Validar otros campos del formulario si es necesario
-
-    return true; // Permitir el envío del formulario si todo está correcto
-}
-</script>
-                </div>
-            </div>
-    
+            
             <div id="search-container">
                 <input type="text" id="searchInput" placeholder="Buscar por título...">
                 <select id="categoryFilter">

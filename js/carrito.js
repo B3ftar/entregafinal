@@ -1,6 +1,4 @@
 
-
-
 document.addEventListener('DOMContentLoaded', () => {
     const gameList = document.getElementById('game-list');
     const cartItems = document.getElementById('cart-items');
@@ -9,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const buyGameButton = document.getElementById('buy-game-button');
     const searchInput = document.getElementById('searchInput');
     const categoryFilter = document.getElementById('categoryFilter');
+    const clearCartButton = document.getElementById('clear-cart-button'); // Referencia al botón "Vaciar Carrito"
 
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
     let gamesData = [];
@@ -76,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
         button.textContent = 'Añadir al Carrito';
         button.addEventListener('click', () => {
             addToCart(game);
-            updateCart(); // Actualizar el carrito después de agregar un juego
+            updateCart(); 
         });
 
         gameLink.appendChild(gameImage);
@@ -112,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
             deleteButton.textContent = 'Eliminar';
             deleteButton.addEventListener('click', () => {
                 removeFromCart(item);
-                updateCart(); // Actualizar el carrito después de eliminar un juego
+                updateCart(); 
             });
             
             listItem.appendChild(deleteButton);
@@ -132,6 +131,12 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem('cart', JSON.stringify(cart));
     }
 
+    function limpiarCarrito() {
+        cart = [];
+        localStorage.setItem('cart', JSON.stringify(cart));
+        updateCart();
+    }
+
     if (buyButton) {
         buyButton.addEventListener('click', () => {
             if (cart.length > 0) {
@@ -146,8 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
     
-    
-    // Listener de evento para el botón de compra en la página del juego
+   
     if (buyGameButton) {
         buyGameButton.addEventListener('click', () => {
             const urlParams = new URLSearchParams(window.location.search);
@@ -169,9 +173,14 @@ document.addEventListener('DOMContentLoaded', () => {
     if (searchInput) {
         searchInput.addEventListener('input', renderGames);
     }
+    
+   
+    if (clearCartButton) {
+        clearCartButton.addEventListener('click', limpiarCarrito);
+    }
+    
     updateCart();
 });
-
 
 document.getElementById('dark-mode-toggle').addEventListener('click', function() {
     document.body.classList.toggle('dark-mode');
