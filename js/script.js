@@ -101,7 +101,3 @@ window.onload = generarCartas;
 
 
 
-
-
-
-

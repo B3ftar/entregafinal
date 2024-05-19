@@ -692,77 +692,52 @@ body.dark-mode .social-icons i:hover {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.about__title {
-  margin-bottom: 0.5em;
-  font-size: 1.5em;
-  color: #333;
+/* Estilos para el formulario */
+#form {
+  width: 50%;
+  margin: 0 auto; /* Centrar el formulario horizontalmente */
 }
 
-.about__text {
-  margin-bottom: 1em;
-  font-size: 1em;
-  color: #666;
-  line-height: 1.6;
+.field {
+  margin-bottom: 20px;
 }
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 150px; /* Altura mayor para el campo de mensaje */
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
 
 /* Estilos para la sección de soporte */
-.support {
-  margin-bottom: 2em;
-  background-color: #ffffff;
-  padding: 1em;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
 
-.support__form {
-  display: flex;
-  flex-direction: column;
-}
 
-.support__label {
-  margin-bottom: 0.5em;
-  font-weight: bold;
-  color: #333;
-}
 
-.support__input, .support__textarea {
-  margin-bottom: 1em;
-  padding: 0.5em;
-  font-size: 1em;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.support__input:focus, .support__textarea:focus {
-  border-color: #4CAF50;
-  outline: none;
-  box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
-}
-
-.support__button {
-  background-color: #d01010;
-  color: white;
-  border: none;
-  padding: 1em;
-  font-size: 1em;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.support__button:hover {
-  background-color: #a31111;
-}
-
-.support__response {
-  margin-top: 2em;
-  padding: 1em;
-  border: 1px solid #ddd;
-  background-color: #f1f1f1;
-  border-radius: 4px;
-  display: none;
-  color: #333;
-}
 
 /* Estilos adicionales para responsividad */
 @media (max-width: 600px) {
@@ -779,6 +754,102 @@ body.dark-mode .social-icons i:hover {
       width: 95%;
   }
 }
+
+#game-container {
+  text-align: center;
+}
+
+
+
+/* Estilos para la etiqueta de pregunta */
+label {
+  font-size: 16px;
+  color: #ff0000;
+}
+
+/* Estilos para el botón */
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b30c00;
+}
+
+/* Estilos para el contenedor de resultados */
+#result-container {
+  margin-top: 20px;
+}
+
+
+/* Estilos para el texto de resultado */
+#result {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Estilos para la imagen del personaje */
+#character-img {
+  max-width: 200px;
+  max-height: 200px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+/* Estilos para el botón de registro */
+#register-btn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Estilos para la ventana emergente de registro */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999; /* Asegura que la ventana se superponga a todo lo demás */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #ea0000;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #ff0000;
+  width: 40%;
+}
+
+.close {
+  color: #420000;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 
 
 /*# sourceMappingURL=styles.css.map */

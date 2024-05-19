@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Soporte</title>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <script type="text/javascript">
+    emailjs.init('BQAwvzaLzMimvTLIT')
+  </script>
     <link rel="stylesheet" href="../scss/styles.css">
 </head>
 <body>
@@ -14,10 +21,10 @@
         </div>
         <nav class="nav">
             <ul class="nav-list">
-                <li class="nav-item"><a href="index.html">Inicio</a></li>
-                <li class="nav-item"><a href="./pags/catalogo.html">Juegos</a></li>
-                <li class="nav-item"><a href="./pags/acercade.html">Acerca de</a></li>
-                <li class="nav-item"><a href="./pags/acercade.html">Soporte</a></li>
+                <li class="nav-item"><a href="../index.html">Inicio</a></li>
+                <li class="nav-item"><a href="catalogo.html">Juegos</a></li>
+                <li class="nav-item"><a href="acercade.html">Acerca de</a></li>
+                <li class="nav-item"><a href="acercade.html">Soporte</a></li>
             </ul>
         </nav>
         <button id="dark-mode-toggle">Modo Oscuro</button>
@@ -30,22 +37,62 @@
                 Bienvenido a nuestra página de juegos, donde ofrecemos una variedad de juegos emocionantes. Explora nuestras categorías y encuentra tu próximo juego favorito. Si tienes algún problema, estamos aquí para ayudarte.
             </p>
         </section>
-        <section id="support" class="support">
-            <form id="supportForm" class="support__form">
-                <label for="name" class="support__label">Nombre:</label>
-                <input type="text" id="name" name="name" class="support__input" required>
-                
-                <label for="email" class="support__label">Correo Electrónico:</label>
-                <input type="email" id="email" name="email" class="support__input" required>
-                
-                <label for="issue" class="support__label">Descripción del Problema:</label>
-                <textarea id="issue" name="issue" class="support__textarea" required></textarea>
-                
-                <button type="submit" class="support__button">Enviar</button>
-            </form>
-            <div id="responseMessage" class="support__response"></div>
-        </section>
+        <form id="form">
+            <div class="field">
+              <label for="from_name">Nombre</label>
+              <input type="text" name="from_name" id="from_name">
+            </div>
+            <div class="field">
+              <label for="message">Mensaje</label>
+              <input type="text" name="message" id="message">
+            </div>
+            <div class="field">
+              <label for="email_id">Email</label>
+              <input type="text" name="email_id" id="email_id">
+            </div>
+            <input type="submit" id="button" value="Send Email" >
+          </form>
+          
     </main>
-    <script src="/js/soporte.js"></script>
+
+    <div id="game-container">
+        <h1>Test: ¿Qué personaje de videojuegos eres?</h1>
+        <label for="question">¿Cuál es tu color favorito?</label>
+        <select id="question">
+            <option value="azul">Azul</option>
+            <option value="rojo">Rojo</option>
+            <option value="verde">Verde</option>
+            <option value="amarillo">Amarillo</option>
+        </select>
+        <button id="submit-btn">Enviar</button>
+        <div id="result-container" style="display: none;">
+            <h2>Resultado:</h2>
+            <p id="result"></p>
+            <img src="" id="character-img" alt="Personaje de videojuego">
+        </div>
+    </div>
+     
+<footer class="footer">
+    <div class="wrapper">
+        <div class="footer-content">
+            <h3>Contacto</h3>
+            <p>Correo electrónico: paginadejuegos.com</p>
+            <p>Teléfono: 123-456-7890</p>
+        </div>
+        <div class="footer-content">
+            <h3>Síguenos en redes sociales</h3>
+            <ul class="social-icons">
+                <li><a href="https://www.facebook.com/tupagina" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.twitter.com/tupagina" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/tupagina" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Página de Juegos. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+  
+    <script src="../js/soporte.js"></script>
 </body>
 </html>
