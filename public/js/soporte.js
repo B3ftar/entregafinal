@@ -49,19 +49,19 @@ document.addEventListener('DOMContentLoaded', function() {
         switch (answer) {
             case 'azul':
                 character = 'Sonic';
-                characterImgSrc = '../img/sonic.webp';
+                characterImgSrc = './img/sonic.webp';
                 break;
             case 'rojo':
                 character = 'Mario';
-                characterImgSrc = '../img/mario.png';
+                characterImgSrc = './img/mario.png';
                 break;
             case 'verde':
                 character = 'Link';
-                characterImgSrc = '../img/link.webp';
+                characterImgSrc = './img/link.webp';
                 break;
             case 'amarillo':
                 character = 'Pikachu';
-                characterImgSrc = '../img/pikachu.png';
+                characterImgSrc = './img/pikachu.png';
                 break;
             default:
                 character = 'No se ha seleccionado un personaje.';

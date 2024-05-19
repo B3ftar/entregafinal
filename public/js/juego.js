@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const gameId = new URLSearchParams(window.location.search).get('id');
     
 
-fetch(`../data/productos.json`)
+fetch(`./data/productos.json`)
     .then(response => response.json())
     .then(games => {
         const game = games.find(game => game.id === parseInt(gameId));

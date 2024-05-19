@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    fetch('../data/productos.json')
+    fetch('./data/productos.json')
         .then(response => response.json())
         .then(games => {
             gamesData = games;
